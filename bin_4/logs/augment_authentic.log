@@ -1,0 +1,43 @@
+============================================================
+AUTHENTIC IMAGE AUGMENTATION
+============================================================
+Input directory: /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/train_images/authentic
+Output directory: /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/train_images/authentic_augmented
+Source images: 2377
+Augmentations per image: 2
+Strengths: ['light', 'medium', 'strong']
+Total images to generate: 4754
+
+  Processed 100/2377 images, generated 200 augmentations
+  Processed 200/2377 images, generated 400 augmentations
+  Processed 300/2377 images, generated 600 augmentations
+  Processed 400/2377 images, generated 800 augmentations
+  Processed 500/2377 images, generated 1000 augmentations
+  Processed 600/2377 images, generated 1200 augmentations
+  Processed 700/2377 images, generated 1400 augmentations
+  Processed 800/2377 images, generated 1600 augmentations
+  Processed 900/2377 images, generated 1800 augmentations
+  Processed 1000/2377 images, generated 2000 augmentations
+  Processed 1100/2377 images, generated 2200 augmentations
+  Processed 1200/2377 images, generated 2400 augmentations
+  Processed 1300/2377 images, generated 2600 augmentations
+  Processed 1400/2377 images, generated 2800 augmentations
+  Processed 1500/2377 images, generated 3000 augmentations
+  Processed 1600/2377 images, generated 3200 augmentations
+  Processed 1700/2377 images, generated 3400 augmentations
+  Processed 1800/2377 images, generated 3600 augmentations
+  Processed 1900/2377 images, generated 3800 augmentations
+  Processed 2000/2377 images, generated 4000 augmentations
+  Processed 2100/2377 images, generated 4200 augmentations
+  Processed 2200/2377 images, generated 4400 augmentations
+  Processed 2300/2377 images, generated 4600 augmentations
+  Processed 2377/2377 images, generated 4754 augmentations
+
+============================================================
+COMPLETE
+============================================================
+Source images processed: 2377
+Augmented images generated: 4754
+Errors: 0
+Output: /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/train_images/authentic_augmented
+

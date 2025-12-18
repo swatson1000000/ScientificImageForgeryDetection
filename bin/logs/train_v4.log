@@ -1,0 +1,30 @@
+============================================================
+Hard Negative Mining V4
+============================================================
+Device: cuda
+Models to train: ['highres_no_ela', 'hard_negative', 'high_recall', 'enhanced_aug']
+Hard negative images: 677
+Found 677 hard negative images
+Forged images: 2751
+
+============================================================
+Training highres_no_ela v4
+============================================================
+  Base model not found: /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/highres_no_ela_v3_best.pth
+  Training from scratch with ImageNet pretrained encoder...
+Dataset: 2751 forged + 677 hard negatives
+  Saved best model (epoch 1, loss=0.4831)
+  Saved best model (epoch 2, loss=0.4549)
+  Saved best model (epoch 3, loss=0.4504)
+  Saved best model (epoch 4, loss=0.4488)
+  Saved best model (epoch 5, loss=0.4455)
+  Saved best model (epoch 6, loss=0.4323)
+  Saved best model (epoch 7, loss=0.4250)
+  Saved best model (epoch 8, loss=0.4184)
+  Saved best model (epoch 9, loss=0.4147)
+  Saved best model (epoch 10, loss=0.4100)
+  Saved best model (epoch 11, loss=0.4043)
+  Saved best model (epoch 13, loss=0.4003)
+  Saved best model (epoch 14, loss=0.3986)
+  Saved best model (epoch 15, loss=0.3938)
+  Saved best model (epoch 18, loss=0.3903)

@@ -1,0 +1,63 @@
+{
+  "timestamp": "2025-12-06T22:37:15.115587",
+  "total_scripts": 6,
+  "successful": 0,
+  "failed": 6,
+  "total_time": 0.5932919979095459,
+  "results": [
+    {
+      "script": "script_1_training_segformer.py",
+      "name": "SegFormer Transformer",
+      "status": "FAILED",
+      "time": 0.11508631706237793,
+      "start_time": "2025-12-06T22:37:14.521262",
+      "end_time": "2025-12-06T22:37:14.636352",
+      "expected_gain": "+5-8%"
+    },
+    {
+      "script": "script_2_training_loss_variants.py",
+      "name": "Loss Variants (Lov\u00e1sz, Focal, Tversky)",
+      "status": "FAILED",
+      "time": 0.06597709655761719,
+      "start_time": "2025-12-06T22:37:14.636446",
+      "end_time": "2025-12-06T22:37:14.702426",
+      "expected_gain": "+2-4%"
+    },
+    {
+      "script": "script_3_hyperparameter_tuning.py",
+      "name": "Hyperparameter Tuning",
+      "status": "FAILED",
+      "time": 0.11594891548156738,
+      "start_time": "2025-12-06T22:37:14.702528",
+      "end_time": "2025-12-06T22:37:14.818480",
+      "expected_gain": "+2-3%"
+    },
+    {
+      "script": "script_4_selfsupervised_pretraining.py",
+      "name": "Self-Supervised Pre-training (SimCLR)",
+      "status": "FAILED",
+      "time": 0.11588311195373535,
+      "start_time": "2025-12-06T22:37:14.818585",
+      "end_time": "2025-12-06T22:37:14.934473",
+      "expected_gain": "+3-5%"
+    },
+    {
+      "script": "script_5_deep_ensemble.py",
+      "name": "Deep Ensemble (4 members)",
+      "status": "FAILED",
+      "time": 0.11603307723999023,
+      "start_time": "2025-12-06T22:37:14.934619",
+      "end_time": "2025-12-06T22:37:15.050657",
+      "expected_gain": "+3-5%"
+    },
+    {
+      "script": "script_6_ensemble_inference.py",
+      "name": "Ensemble Inference",
+      "status": "FAILED",
+      "time": 0.06436347961425781,
+      "start_time": "2025-12-06T22:37:15.050836",
+      "end_time": "2025-12-06T22:37:15.115204",
+      "expected_gain": "Combined model predictions"
+    }
+  ]
+}

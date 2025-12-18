@@ -1,0 +1,9 @@
+train_images/
+train_masks/
+train_masks_augmented/
+models/
+log/
+*.pth
+*.zip
+__pycache__/
+.ipynb_checkpoints/

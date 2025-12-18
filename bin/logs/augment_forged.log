@@ -1,0 +1,20 @@
+============================================================
+GENERATING AUGMENTED FORGED IMAGES
+============================================================
+Source: /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/train_images/forged
+Output images: /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/train_images/forged_augmented
+Output masks: /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/train_masks_augmented
+Augmentations per image: 3
+
+Found 2751 forged images
+
+============================================================
+AUGMENTATION COMPLETE
+============================================================
+Original forged images: 2751
+Skipped (no mask or error): 0
+Augmented images generated: 8173
+Output: /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/train_images/forged_augmented
+Masks: /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/train_masks_augmented
+
+Total forged data available: 10924
