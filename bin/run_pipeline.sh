@@ -143,13 +143,32 @@ fi
 
 if [ "$SKIP_TRAINING" = false ]; then
     echo "========================================================================"
-    echo "STEP 1: TRAINING V4 SEGMENTATION MODELS (4 models)"
+    echo "STEP 1a: TRAINING V3 SEGMENTATION MODELS (4 models - base training)"
+    echo "========================================================================"
+    echo ""
+
+    V3_START=$(date +%s)
+    V3_START_TIME=$(date '+%Y-%m-%d %H:%M:%S')
+    echo "V3 training started at: $V3_START_TIME"
+    echo "Log file: $LOG_DIR/train_v3.log"
+    echo ""
+    
+    python "$SCRIPT_DIR/script_0_train_v3.py" 2>&1 | tee "$LOG_DIR/train_v3.log"
+    
+    V3_END=$(date +%s)
+    V3_DURATION=$((V3_END - V3_START))
+    echo ""
+    echo "V3 training completed in $((V3_DURATION / 3600))h $((V3_DURATION % 3600 / 60))m"
+    echo ""
+
+    echo "========================================================================"
+    echo "STEP 1b: TRAINING V4 SEGMENTATION MODELS (4 models - fine-tuning)"
     echo "========================================================================"
     echo ""
 
     TRAIN_START=$(date +%s)
     TRAIN_START_TIME=$(date '+%Y-%m-%d %H:%M:%S')
-    echo "Training started at: $TRAIN_START_TIME"
+    echo "V4 training started at: $TRAIN_START_TIME"
     echo "Log file: $LOG_DIR/train_v4.log"
     echo ""
     

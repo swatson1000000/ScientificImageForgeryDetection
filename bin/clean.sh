@@ -29,4 +29,10 @@ if [ -d "$PROJECT_DIR/train_images/authentic_augmented" ]; then
     echo "Cleaned: $PROJECT_DIR/train_images/authentic_augmented"
 fi
 
+# Remove trained models
+if [ -d "$PROJECT_DIR/models" ]; then
+    rm -f "$PROJECT_DIR/models"/*.pth
+    echo "Cleaned: $PROJECT_DIR/models (removed *.pth files)"
+fi
+
 echo "Done."

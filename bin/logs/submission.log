@@ -1,0 +1,26 @@
+
+Found 934 images in /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/validation_images
+Classifier threshold: 0.25
+Seg threshold: 0.35, Min area: 300
+TTA: True, Adaptive: True
+
+Loading two-stage pipeline...
+  Classifier threshold: 0.25
+  ✓ Binary classifier loaded
+  Loading 4-model ensemble:
+    ✓ highres_no_ela_v4_best.pth
+    ✓ hard_negative_v4_best.pth
+    ✓ high_recall_v4_best.pth
+    ✓ enhanced_aug_v4_best.pth
+  ✓ Loaded 4 ensemble models
+
+
+============================================================
+TWO-STAGE SUBMISSION GENERATED
+============================================================
+Total images: 934
+Filtered by classifier: 279 (29.9%)
+Passed to segmentation: 655
+Forged detected: 480 (51.4%)
+Authentic: 454
+Saved to: /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/output/submission.csv

@@ -13,8 +13,8 @@ AUGMENTATION COMPLETE
 ============================================================
 Original forged images: 2751
 Skipped (no mask or error): 0
-Augmented images generated: 8173
+Augmented images generated: 8182
 Output: /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/train_images/forged_augmented
 Masks: /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/train_masks_augmented
 
-Total forged data available: 10924
+Total forged data available: 10933
