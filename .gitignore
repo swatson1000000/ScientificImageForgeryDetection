@@ -1,3 +1,4 @@
+# Image data directories
 train_images/
 train_masks/
 train_masks_augmented/
@@ -9,7 +10,19 @@ test_images/
 validation_images/
 validation_masks/
 log/
+
+# Backup and other large directories
+BACKUP/
+inspection/
+output/
+unet/
+temp/
+
+# File types
 *.pth
 *.zip
+*.npy
+
+# Python
 __pycache__/
 .ipynb_checkpoints/
