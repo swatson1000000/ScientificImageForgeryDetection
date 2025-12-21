@@ -1,5 +1,56 @@
 # Instructions for Claude AI Assistant
 
+## ⚠️ CRITICAL: Inference Preprocessing Requirements
+
+When creating ANY new inference or validation scripts, **ALWAYS** include these three critical components:
+
+### 1. ImageNet Normalization (REQUIRED)
+```python
+def preprocess_for_segmentation(image_bgr, device):
+    img_resized = cv2.resize(image_bgr, (512, 512))
+    img_rgb = cv2.cvtColor(img_resized, cv2.COLOR_BGR2RGB)
+    img_norm = img_rgb.astype(np.float32) / 255.0
+    # CRITICAL: ImageNet normalization - models trained with this!
+    img_norm = (img_norm - np.array([0.485, 0.456, 0.406])) / np.array([0.229, 0.224, 0.225])
+    tensor = torch.from_numpy(img_norm.transpose(2, 0, 1)).unsqueeze(0).float().to(device)
+    return tensor
+```
+
+### 2. Adaptive Threshold (REQUIRED)
+```python
+def get_adaptive_threshold(img_bgr, base_threshold=0.35):
+    gray = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2GRAY)
+    brightness = np.mean(gray)  # 0-255 scale
+    if brightness < 50:
+        return max(0.20, base_threshold - 0.10)
+    elif brightness < 80:
+        return max(0.25, base_threshold - 0.05)
+    elif brightness > 200:
+        return min(0.50, base_threshold + 0.05)
+    return base_threshold
+```
+
+### 3. Connected Components Filtering (REQUIRED)
+```python
+# After thresholding, remove small noise regions
+if min_area > 0:
+    num_labels, labels, stats, _ = cv2.connectedComponentsWithStats(binary_mask, connectivity=8)
+    for i in range(1, num_labels):
+        if stats[i, cv2.CC_STAT_AREA] < min_area:
+            binary_mask[labels == i] = 0
+is_forged = binary_mask.max() > 0
+```
+
+### Best Configuration (79% recall, 3.4% FP rate)
+| Parameter | Value |
+|-----------|-------|
+| classifier_threshold | 0.25 |
+| seg_threshold | 0.35 |
+| min_area | 300 |
+| TTA | 4x flips with MAX aggregation |
+
+---
+
 ## Important: Running Scripts
 
 ### Script Location

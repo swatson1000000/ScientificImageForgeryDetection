@@ -2,6 +2,12 @@ train_images/
 train_masks/
 train_masks_augmented/
 models/
+test_authentic_100/
+test_forged_100/
+test_forged_all/
+test_images/
+validation_images/
+validation_masks/
 log/
 *.pth
 *.zip

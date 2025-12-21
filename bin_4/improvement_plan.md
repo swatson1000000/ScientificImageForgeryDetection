@@ -1,22 +1,30 @@
 # Forgery Detection Improvement Plan
 
-## 🏆 CURRENT BEST (December 17, 2025)
+## 🏆 CURRENT BEST (December 19, 2025)
 
 ### Best Configuration: Two-Stage Pipeline (Classifier + 4-Model Ensemble)
 
-**Script**: `bin_4/script_3_two_stage_submission.py`
+**Scripts**: 
+- `bin/script_3_two_stage_submission.py` - Generate submissions
+- `bin/validate_test.py` - Validate on test sets
 
-**Full Dataset Results (2751 forged, 2377 authentic):**
+**Test Set Results (500 forged, 500 authentic):**
 
 | Metric | Value |
 |--------|-------|
-| **Forged Recall** | **79.0%** (2173/2751) |
-| **Authentic FP** | **5.9%** (140/2377) |
-| **Net Score** | **+2033** |
+| **Forged Recall** | **78.8%** (394/500) |
+| **Authentic FP** | **3.4%** (17/500) |
+| **Net Score** | **+377** |
+| **Precision** | **95.9%** |
 
 **Two-Stage Pipeline:**
 1. **Stage 1**: Binary classifier filters likely authentic images (threshold=0.25)
 2. **Stage 2**: 4-model V4 ensemble with TTA generates masks for remaining images
+
+**⚠️ CRITICAL Preprocessing Requirements (see CLAUDE.md):**
+1. **ImageNet normalization** - `(img - [0.485, 0.456, 0.406]) / [0.229, 0.224, 0.225]`
+2. **Adaptive threshold** - brightness-based (50/80/200 scale)
+3. **Connected components filtering** - remove small noise regions
 
 **Optimal Configuration:**
 
@@ -38,18 +46,31 @@
 
 **Usage:**
 ```bash
-python bin_4/script_3_two_stage_submission.py -i <test_dir> -o submission.csv
-```
+# Validation on test sets
+python bin/validate_test.py --classifier-threshold 0.25 --seg-threshold 0.35 --min-area 300
 
-**Improvement over previous best (single-stage V4):** +184 net score vs old baseline
+# Generate submission
+python bin/script_3_two_stage_submission.py -i <test_dir> -o submission.csv
+```
 
 **Comparison:**
 
 | Config | TP | FP | Net | Recall | FP Rate |
 |--------|-----|-----|------|--------|---------|
-| Single-stage V4 baseline | 2062 | 213 | 1849 | 74.9% | 9.0% |
-| Two-stage (single V4) | 2079 | 145 | 1934 | 75.6% | 6.1% |
-| **Two-stage (4-model ensemble)** | **2173** | **140** | **2033** | **79.0%** | **5.9%** |
+| Without ImageNet norm | 310 | 37 | 273 | 62.0% | 7.4% |
+| **With all fixes** | **394** | **17** | **377** | **78.8%** | **3.4%** |
+
+---
+
+## Previous Best (December 17, 2025)
+
+### Full Dataset Results (2751 forged, 2377 authentic)
+
+| Metric | Value |
+|--------|-------|
+| **Forged Recall** | **79.0%** (2173/2751) |
+| **Authentic FP** | **5.9%** (140/2377) |
+| **Net Score** | **+2033** |
 
 ---
 
