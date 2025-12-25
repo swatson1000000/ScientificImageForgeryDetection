@@ -6,11 +6,11 @@ Pipeline:
   Stage 1: Binary classifier filters images (forged probability > threshold → proceed)
   Stage 2: 4-model V4 ensemble generates mask for filtered images
 
-Optimal config from validation:
-  - Classifier threshold: 0.25
-  - 4-model ensemble: Net 2033 (TP: 2173, FP: 140)
-  - vs Single V4: Net 1934 (TP: 2079, FP: 145)
-  - Ensemble improvement: +99 net points
+Optimal config from validation sweep (Dec 2025):
+  - Classifier threshold: 0.20
+  - Segmentation threshold: 0.35
+  - Min area: 25
+  - Result: Net 397 (TP: 439, FP: 42), Recall: 87.8%, FP Rate: 8.4%
 """
 
 import os
@@ -31,8 +31,11 @@ DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 CLASSIFIER_SIZE = 384
 SEG_SIZE = 512
 
-# Optimal threshold from validation sweep
-DEFAULT_CLASSIFIER_THRESHOLD = 0.25
+# Optimal thresholds from validation sweep (Dec 2025)
+# Best Net Score: cls=0.20, seg=0.35, area=25 -> Net=397, Recall=87.8%, FP=8.4%
+DEFAULT_CLASSIFIER_THRESHOLD = 0.20
+DEFAULT_SEG_THRESHOLD = 0.35
+DEFAULT_MIN_AREA = 25
 
 # V4 ensemble models
 V4_MODELS = [
@@ -329,7 +332,7 @@ class TwoStageGenerator:
 
 
 def generate_submission(input_dir, output_path, classifier_threshold=DEFAULT_CLASSIFIER_THRESHOLD,
-                        seg_threshold=0.35, min_area=300, model_dir=None, use_tta=True, adaptive=True):
+                        seg_threshold=DEFAULT_SEG_THRESHOLD, min_area=DEFAULT_MIN_AREA, model_dir=None, use_tta=True, adaptive=True):
     """Generate submission CSV using two-stage pipeline."""
     input_dir = Path(input_dir)
     output_path = Path(output_path)
@@ -405,15 +408,15 @@ Two-Stage Pipeline:
   Stage 1: Binary classifier filters likely authentic images (fast)
   Stage 2: 4-model V4 ensemble runs on remaining images (detailed)
 
-Optimal config (from validation):
-  - Classifier threshold: 0.25
-  - 4-model ensemble Net: 2033 (TP: 2173, FP: 140)
-  - Single V4 Net: 1934 (TP: 2079, FP: 145)
-  - Ensemble improvement: +99 net points
+Optimal config (from validation sweep Dec 2025):
+  - Classifier threshold: 0.20
+  - Segmentation threshold: 0.35
+  - Min area: 25
+  - Result: Net 397 (TP: 439, FP: 42), Recall: 87.8%, FP Rate: 8.4%
 
 Examples:
-  python script_3_two_stage_submission.py --input test_images/ --output submission.csv
-  python script_3_two_stage_submission.py --input test_images/ --output submission.csv --classifier-threshold 0.30
+  python script_4_two_stage_submission.py --input test_images/ --output submission.csv
+  python script_4_two_stage_submission.py --input test_images/ --output submission.csv --classifier-threshold 0.30
         """
     )
     parser.add_argument('--input', '-i', type=str, required=True,
@@ -422,10 +425,10 @@ Examples:
                         help='Output CSV file path (default: submission.csv)')
     parser.add_argument('--classifier-threshold', '-c', type=float, default=DEFAULT_CLASSIFIER_THRESHOLD,
                         help=f'Classifier threshold for filtering (default: {DEFAULT_CLASSIFIER_THRESHOLD})')
-    parser.add_argument('--seg-threshold', '-s', type=float, default=0.35,
-                        help='Segmentation threshold (default: 0.35)')
-    parser.add_argument('--min-area', type=int, default=300,
-                        help='Minimum forgery area in pixels (default: 300)')
+    parser.add_argument('--seg-threshold', '-s', type=float, default=DEFAULT_SEG_THRESHOLD,
+                        help=f'Segmentation threshold (default: {DEFAULT_SEG_THRESHOLD})')
+    parser.add_argument('--min-area', type=int, default=DEFAULT_MIN_AREA,
+                        help=f'Minimum forgery area in pixels (default: {DEFAULT_MIN_AREA})')
     parser.add_argument('--no-tta', action='store_true',
                         help='Disable test-time augmentation')
     parser.add_argument('--no-adaptive', action='store_true',

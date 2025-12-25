@@ -1,8 +1,18 @@
 #!/bin/bash
 # Clean up generated data and logs (keeps directories)
+# Usage: ./clean.sh [--hard-negative]
+# Use --hard-negative flag to also remove hard_negative_ids.txt file
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
+CLEAN_HARD_NEGATIVES=false
+
+# Parse command line arguments
+for arg in "$@"; do
+    if [ "$arg" = "--hard-negative" ]; then
+        CLEAN_HARD_NEGATIVES=true
+    fi
+done
 
 echo "Cleaning up..."
 
@@ -33,6 +43,16 @@ fi
 if [ -d "$PROJECT_DIR/models" ]; then
     rm -f "$PROJECT_DIR/models"/*.pth
     echo "Cleaned: $PROJECT_DIR/models (removed *.pth files)"
+fi
+
+# Remove hard negatives file (optional)
+if [ "$CLEAN_HARD_NEGATIVES" = true ]; then
+    if [ -f "$PROJECT_DIR/hard_negative_ids.txt" ]; then
+        rm -f "$PROJECT_DIR/hard_negative_ids.txt"
+        echo "Removed: $PROJECT_DIR/hard_negative_ids.txt"
+    fi
+else
+    echo "Skipped: hard_negative_ids.txt (use --hard-negative flag to remove)"
 fi
 
 echo "Done."

@@ -1,0 +1,85 @@
+============================================================
+TRAINING BINARY CLASSIFIER (Stage 1)
+============================================================
+Device: cuda
+Hard negatives: enabled
+
+Loading hard negatives from: /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/hard_negative_ids.txt
+Loaded 44 hard negative IDs from file
+Found 44 hard negative images
+Forged images: 2751
+Authentic images: 2377
+Hard negatives: 44
+Train: 2476 forged, 2140 authentic, 35 hard neg
+Val: 275 forged, 237 authentic, 9 hard neg
+Using weighted sampling with hard_negative_weight=3.0
+Epoch 1/20 - Loss: 0.6806, Train Acc: 0.552, Val Acc: 0.560, Time: 74s
+  Precision: 0.584, Recall: 0.582
+  TP: 160, FP: 114, TN: 132, FN: 115
+  ✓ Saved best model (Acc: 0.560)
+Epoch 2/20 - Loss: 0.5418, Train Acc: 0.688, Val Acc: 0.775, Time: 73s
+  Precision: 0.816, Recall: 0.742
+  TP: 204, FP: 46, TN: 200, FN: 71
+  ✓ Saved best model (Acc: 0.775)
+Epoch 3/20 - Loss: 0.4511, Train Acc: 0.754, Val Acc: 0.787, Time: 73s
+  Precision: 0.823, Recall: 0.760
+  TP: 209, FP: 45, TN: 201, FN: 66
+  ✓ Saved best model (Acc: 0.787)
+Epoch 4/20 - Loss: 0.3995, Train Acc: 0.788, Val Acc: 0.787, Time: 73s
+  Precision: 0.815, Recall: 0.771
+  TP: 212, FP: 48, TN: 198, FN: 63
+Epoch 5/20 - Loss: 0.3754, Train Acc: 0.798, Val Acc: 0.777, Time: 73s
+  Precision: 0.768, Recall: 0.829
+  TP: 228, FP: 69, TN: 177, FN: 47
+Epoch 6/20 - Loss: 0.3482, Train Acc: 0.813, Val Acc: 0.802, Time: 73s
+  Precision: 0.847, Recall: 0.764
+  TP: 210, FP: 38, TN: 208, FN: 65
+  ✓ Saved best model (Acc: 0.802)
+Epoch 7/20 - Loss: 0.3393, Train Acc: 0.814, Val Acc: 0.797, Time: 73s
+  Precision: 0.851, Recall: 0.745
+  TP: 205, FP: 36, TN: 210, FN: 70
+Epoch 8/20 - Loss: 0.3296, Train Acc: 0.825, Val Acc: 0.804, Time: 73s
+  Precision: 0.822, Recall: 0.804
+  TP: 221, FP: 48, TN: 198, FN: 54
+  ✓ Saved best model (Acc: 0.804)
+Epoch 9/20 - Loss: 0.3229, Train Acc: 0.822, Val Acc: 0.808, Time: 74s
+  Precision: 0.795, Recall: 0.858
+  TP: 236, FP: 61, TN: 185, FN: 39
+  ✓ Saved best model (Acc: 0.808)
+Epoch 10/20 - Loss: 0.3056, Train Acc: 0.840, Val Acc: 0.797, Time: 73s
+  Precision: 0.799, Recall: 0.822
+  TP: 226, FP: 57, TN: 189, FN: 49
+Epoch 11/20 - Loss: 0.2928, Train Acc: 0.846, Val Acc: 0.798, Time: 73s
+  Precision: 0.776, Recall: 0.869
+  TP: 239, FP: 69, TN: 177, FN: 36
+Epoch 12/20 - Loss: 0.2864, Train Acc: 0.848, Val Acc: 0.789, Time: 73s
+  Precision: 0.802, Recall: 0.796
+  TP: 219, FP: 54, TN: 192, FN: 56
+Epoch 13/20 - Loss: 0.2775, Train Acc: 0.845, Val Acc: 0.779, Time: 73s
+  Precision: 0.805, Recall: 0.767
+  TP: 211, FP: 51, TN: 195, FN: 64
+Epoch 14/20 - Loss: 0.2765, Train Acc: 0.850, Val Acc: 0.772, Time: 73s
+  Precision: 0.791, Recall: 0.771
+  TP: 212, FP: 56, TN: 190, FN: 63
+Epoch 15/20 - Loss: 0.2546, Train Acc: 0.862, Val Acc: 0.798, Time: 74s
+  Precision: 0.789, Recall: 0.844
+  TP: 232, FP: 62, TN: 184, FN: 43
+Epoch 16/20 - Loss: 0.2479, Train Acc: 0.868, Val Acc: 0.798, Time: 74s
+  Precision: 0.785, Recall: 0.851
+  TP: 234, FP: 64, TN: 182, FN: 41
+Epoch 17/20 - Loss: 0.2418, Train Acc: 0.869, Val Acc: 0.797, Time: 73s
+  Precision: 0.801, Recall: 0.818
+  TP: 225, FP: 56, TN: 190, FN: 50
+Epoch 18/20 - Loss: 0.2474, Train Acc: 0.861, Val Acc: 0.797, Time: 73s
+  Precision: 0.801, Recall: 0.818
+  TP: 225, FP: 56, TN: 190, FN: 50
+Epoch 19/20 - Loss: 0.2526, Train Acc: 0.862, Val Acc: 0.789, Time: 73s
+  Precision: 0.792, Recall: 0.815
+  TP: 224, FP: 59, TN: 187, FN: 51
+Epoch 20/20 - Loss: 0.2446, Train Acc: 0.865, Val Acc: 0.785, Time: 73s
+  Precision: 0.790, Recall: 0.807
+  TP: 222, FP: 59, TN: 187, FN: 53
+
+Training complete! Best Acc: 0.808
+Model saved to: /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/binary_classifier_best.pth
+Hard negatives used: 44

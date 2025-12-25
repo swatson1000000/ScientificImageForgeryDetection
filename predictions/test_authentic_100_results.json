@@ -1,0 +1,4511 @@
+{
+  "timestamp": "2025-12-25T14:56:37.383936",
+  "config": {
+    "classifier_threshold": 0.25,
+    "seg_threshold": 0.35,
+    "min_area": 300,
+    "tta": true
+  },
+  "results": [
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/10017.png",
+      "filename": "10017.png",
+      "is_forged": false,
+      "classifier_prob": 0.3148575723171234,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.005867457948625088,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/10030.png",
+      "filename": "10030.png",
+      "is_forged": false,
+      "classifier_prob": 0.005481569562107325,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/10398.png",
+      "filename": "10398.png",
+      "is_forged": false,
+      "classifier_prob": 0.5348421931266785,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.1960274577140808,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/10570.png",
+      "filename": "10570.png",
+      "is_forged": false,
+      "classifier_prob": 0.003034473629668355,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/10855.png",
+      "filename": "10855.png",
+      "is_forged": false,
+      "classifier_prob": 0.007976368069648743,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/10886.png",
+      "filename": "10886.png",
+      "is_forged": false,
+      "classifier_prob": 0.9767929315567017,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.022368066012859344,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/10992.png",
+      "filename": "10992.png",
+      "is_forged": false,
+      "classifier_prob": 0.0007702832226641476,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/1101.png",
+      "filename": "1101.png",
+      "is_forged": false,
+      "classifier_prob": 0.3942295014858246,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.03493660315871239,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/11206.png",
+      "filename": "11206.png",
+      "is_forged": false,
+      "classifier_prob": 0.0029301177710294724,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/11356.png",
+      "filename": "11356.png",
+      "is_forged": false,
+      "classifier_prob": 0.006043783389031887,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/11399.png",
+      "filename": "11399.png",
+      "is_forged": false,
+      "classifier_prob": 0.027174167335033417,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/11426.png",
+      "filename": "11426.png",
+      "is_forged": false,
+      "classifier_prob": 0.009931442327797413,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/11501.png",
+      "filename": "11501.png",
+      "is_forged": false,
+      "classifier_prob": 0.0134403882548213,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/11508.png",
+      "filename": "11508.png",
+      "is_forged": false,
+      "classifier_prob": 0.5798599720001221,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.22021473944187164,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/11698.png",
+      "filename": "11698.png",
+      "is_forged": false,
+      "classifier_prob": 0.007217861246317625,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/1173.png",
+      "filename": "1173.png",
+      "is_forged": false,
+      "classifier_prob": 0.012047824449837208,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/11910.png",
+      "filename": "11910.png",
+      "is_forged": false,
+      "classifier_prob": 0.0004399903118610382,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/1201.png",
+      "filename": "1201.png",
+      "is_forged": true,
+      "classifier_prob": 0.5564056634902954,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.5001461505889893,
+      "forgery_area": 636
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/12051.png",
+      "filename": "12051.png",
+      "is_forged": false,
+      "classifier_prob": 0.5619632601737976,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.14337486028671265,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/12244.png",
+      "filename": "12244.png",
+      "is_forged": false,
+      "classifier_prob": 0.02037063241004944,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/1225.png",
+      "filename": "1225.png",
+      "is_forged": false,
+      "classifier_prob": 0.4687317907810211,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.041405100375413895,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/12261.png",
+      "filename": "12261.png",
+      "is_forged": false,
+      "classifier_prob": 0.004313870798796415,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/12363.png",
+      "filename": "12363.png",
+      "is_forged": false,
+      "classifier_prob": 0.005359245464205742,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/1237.png",
+      "filename": "1237.png",
+      "is_forged": false,
+      "classifier_prob": 0.07706029713153839,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/12446.png",
+      "filename": "12446.png",
+      "is_forged": false,
+      "classifier_prob": 0.0029875237960368395,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/12505.png",
+      "filename": "12505.png",
+      "is_forged": false,
+      "classifier_prob": 0.4731213450431824,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.00047225685557350516,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/1251.png",
+      "filename": "1251.png",
+      "is_forged": false,
+      "classifier_prob": 0.025133777409791946,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/12572.png",
+      "filename": "12572.png",
+      "is_forged": false,
+      "classifier_prob": 0.013979306444525719,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/1272.png",
+      "filename": "1272.png",
+      "is_forged": false,
+      "classifier_prob": 0.03172406554222107,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/12793.png",
+      "filename": "12793.png",
+      "is_forged": false,
+      "classifier_prob": 0.0018733462784439325,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/12809.png",
+      "filename": "12809.png",
+      "is_forged": false,
+      "classifier_prob": 0.10012985020875931,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/12924.png",
+      "filename": "12924.png",
+      "is_forged": false,
+      "classifier_prob": 0.007231079041957855,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/13415.png",
+      "filename": "13415.png",
+      "is_forged": false,
+      "classifier_prob": 0.5619946122169495,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.0008327615214511752,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/13444.png",
+      "filename": "13444.png",
+      "is_forged": false,
+      "classifier_prob": 0.0006163503276184201,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/13511.png",
+      "filename": "13511.png",
+      "is_forged": false,
+      "classifier_prob": 0.020774347707629204,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/13624.png",
+      "filename": "13624.png",
+      "is_forged": false,
+      "classifier_prob": 0.5075204372406006,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.21723665297031403,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/13839.png",
+      "filename": "13839.png",
+      "is_forged": false,
+      "classifier_prob": 0.4905972182750702,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.003582854988053441,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/1385.png",
+      "filename": "1385.png",
+      "is_forged": false,
+      "classifier_prob": 0.003511558286845684,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/13863.png",
+      "filename": "13863.png",
+      "is_forged": false,
+      "classifier_prob": 0.5763152837753296,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.28437843918800354,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/13898.png",
+      "filename": "13898.png",
+      "is_forged": false,
+      "classifier_prob": 0.437418133020401,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.004384463187307119,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/13905.png",
+      "filename": "13905.png",
+      "is_forged": false,
+      "classifier_prob": 0.034905992448329926,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/13920.png",
+      "filename": "13920.png",
+      "is_forged": false,
+      "classifier_prob": 0.15276439487934113,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/13957.png",
+      "filename": "13957.png",
+      "is_forged": false,
+      "classifier_prob": 0.005244199652224779,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/14010.png",
+      "filename": "14010.png",
+      "is_forged": false,
+      "classifier_prob": 0.04800257086753845,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/14048.png",
+      "filename": "14048.png",
+      "is_forged": false,
+      "classifier_prob": 0.009712130762636662,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/14070.png",
+      "filename": "14070.png",
+      "is_forged": true,
+      "classifier_prob": 0.34321579337120056,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.5052229166030884,
+      "forgery_area": 1782
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/14087.png",
+      "filename": "14087.png",
+      "is_forged": false,
+      "classifier_prob": 0.008241895586252213,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/14227.png",
+      "filename": "14227.png",
+      "is_forged": false,
+      "classifier_prob": 0.13126273453235626,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/14324.png",
+      "filename": "14324.png",
+      "is_forged": false,
+      "classifier_prob": 0.129019632935524,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/14331.png",
+      "filename": "14331.png",
+      "is_forged": false,
+      "classifier_prob": 0.14454811811447144,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/14478.png",
+      "filename": "14478.png",
+      "is_forged": false,
+      "classifier_prob": 0.0005847660941071808,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/14498.png",
+      "filename": "14498.png",
+      "is_forged": false,
+      "classifier_prob": 0.021375015377998352,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/14605.png",
+      "filename": "14605.png",
+      "is_forged": false,
+      "classifier_prob": 0.00025130968424491584,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/14710.png",
+      "filename": "14710.png",
+      "is_forged": false,
+      "classifier_prob": 0.14471210539340973,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/14965.png",
+      "filename": "14965.png",
+      "is_forged": false,
+      "classifier_prob": 0.0016948023112490773,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/15176.png",
+      "filename": "15176.png",
+      "is_forged": false,
+      "classifier_prob": 0.32017049193382263,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.002584995934739709,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/15295.png",
+      "filename": "15295.png",
+      "is_forged": false,
+      "classifier_prob": 0.000335454213200137,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/156.png",
+      "filename": "156.png",
+      "is_forged": false,
+      "classifier_prob": 0.06830061227083206,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/15660.png",
+      "filename": "15660.png",
+      "is_forged": false,
+      "classifier_prob": 0.016290316358208656,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/15670.png",
+      "filename": "15670.png",
+      "is_forged": false,
+      "classifier_prob": 0.44432514905929565,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.001695122104138136,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/15733.png",
+      "filename": "15733.png",
+      "is_forged": false,
+      "classifier_prob": 0.0007573571638204157,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/1574.png",
+      "filename": "1574.png",
+      "is_forged": false,
+      "classifier_prob": 0.00316984741948545,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/15767.png",
+      "filename": "15767.png",
+      "is_forged": false,
+      "classifier_prob": 0.16224445402622223,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/15886.png",
+      "filename": "15886.png",
+      "is_forged": false,
+      "classifier_prob": 0.5904116034507751,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.03047333098948002,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/16097.png",
+      "filename": "16097.png",
+      "is_forged": false,
+      "classifier_prob": 0.01774546504020691,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/16112.png",
+      "filename": "16112.png",
+      "is_forged": false,
+      "classifier_prob": 0.12219730019569397,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/16184.png",
+      "filename": "16184.png",
+      "is_forged": false,
+      "classifier_prob": 0.8873023390769958,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.1725107878446579,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/16205.png",
+      "filename": "16205.png",
+      "is_forged": false,
+      "classifier_prob": 0.02326253429055214,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/16221.png",
+      "filename": "16221.png",
+      "is_forged": false,
+      "classifier_prob": 0.448824942111969,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.21212010085582733,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/16336.png",
+      "filename": "16336.png",
+      "is_forged": false,
+      "classifier_prob": 0.1124555915594101,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/16359.png",
+      "filename": "16359.png",
+      "is_forged": false,
+      "classifier_prob": 0.4706842303276062,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.0021767322905361652,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/1638.png",
+      "filename": "1638.png",
+      "is_forged": false,
+      "classifier_prob": 0.01318022795021534,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/16410.png",
+      "filename": "16410.png",
+      "is_forged": false,
+      "classifier_prob": 0.01802002638578415,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/16612.png",
+      "filename": "16612.png",
+      "is_forged": false,
+      "classifier_prob": 0.01598510518670082,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/16683.png",
+      "filename": "16683.png",
+      "is_forged": false,
+      "classifier_prob": 0.00068755290703848,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/17008.png",
+      "filename": "17008.png",
+      "is_forged": false,
+      "classifier_prob": 0.005729116499423981,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/17124.png",
+      "filename": "17124.png",
+      "is_forged": false,
+      "classifier_prob": 0.5590221881866455,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.004952046554535627,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/17128.png",
+      "filename": "17128.png",
+      "is_forged": false,
+      "classifier_prob": 0.002361865248531103,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/17245.png",
+      "filename": "17245.png",
+      "is_forged": false,
+      "classifier_prob": 0.0032701618038117886,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/17268.png",
+      "filename": "17268.png",
+      "is_forged": false,
+      "classifier_prob": 0.11427299678325653,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/17280.png",
+      "filename": "17280.png",
+      "is_forged": false,
+      "classifier_prob": 0.40194016695022583,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.0005184680339880288,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/17324.png",
+      "filename": "17324.png",
+      "is_forged": false,
+      "classifier_prob": 0.002741091651841998,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/17660.png",
+      "filename": "17660.png",
+      "is_forged": false,
+      "classifier_prob": 0.1244630441069603,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/1813.png",
+      "filename": "1813.png",
+      "is_forged": false,
+      "classifier_prob": 0.14342181384563446,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/18440.png",
+      "filename": "18440.png",
+      "is_forged": false,
+      "classifier_prob": 0.0006065946654416621,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/18462.png",
+      "filename": "18462.png",
+      "is_forged": false,
+      "classifier_prob": 0.3971990942955017,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.002174974884837866,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/18679.png",
+      "filename": "18679.png",
+      "is_forged": false,
+      "classifier_prob": 0.39915621280670166,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.0004441240744199604,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/1879.png",
+      "filename": "1879.png",
+      "is_forged": false,
+      "classifier_prob": 0.02666885405778885,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/18877.png",
+      "filename": "18877.png",
+      "is_forged": false,
+      "classifier_prob": 0.5380781292915344,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.0018482017330825329,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/18940.png",
+      "filename": "18940.png",
+      "is_forged": false,
+      "classifier_prob": 0.001028339727781713,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/18995.png",
+      "filename": "18995.png",
+      "is_forged": false,
+      "classifier_prob": 0.0008793024462647736,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/19074.png",
+      "filename": "19074.png",
+      "is_forged": false,
+      "classifier_prob": 0.0023529035970568657,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/19253.png",
+      "filename": "19253.png",
+      "is_forged": false,
+      "classifier_prob": 0.002926891902461648,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/19467.png",
+      "filename": "19467.png",
+      "is_forged": false,
+      "classifier_prob": 0.020020905882120132,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/19668.png",
+      "filename": "19668.png",
+      "is_forged": false,
+      "classifier_prob": 0.010904332622885704,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/19986.png",
+      "filename": "19986.png",
+      "is_forged": false,
+      "classifier_prob": 0.32444679737091064,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.014223472215235233,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/20097.png",
+      "filename": "20097.png",
+      "is_forged": false,
+      "classifier_prob": 0.16298048198223114,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/20144.png",
+      "filename": "20144.png",
+      "is_forged": false,
+      "classifier_prob": 0.006792063824832439,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/20270.png",
+      "filename": "20270.png",
+      "is_forged": false,
+      "classifier_prob": 0.06062744930386543,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/20379.png",
+      "filename": "20379.png",
+      "is_forged": false,
+      "classifier_prob": 0.011978304013609886,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/20569.png",
+      "filename": "20569.png",
+      "is_forged": false,
+      "classifier_prob": 0.37174513936042786,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.004185683559626341,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/20833.png",
+      "filename": "20833.png",
+      "is_forged": false,
+      "classifier_prob": 0.09464900940656662,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/21204.png",
+      "filename": "21204.png",
+      "is_forged": false,
+      "classifier_prob": 0.5674505829811096,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.12923361361026764,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/21264.png",
+      "filename": "21264.png",
+      "is_forged": false,
+      "classifier_prob": 0.007920458912849426,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/21266.png",
+      "filename": "21266.png",
+      "is_forged": false,
+      "classifier_prob": 0.0020816917531192303,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/21773.png",
+      "filename": "21773.png",
+      "is_forged": false,
+      "classifier_prob": 0.0014813266461715102,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/21968.png",
+      "filename": "21968.png",
+      "is_forged": false,
+      "classifier_prob": 0.03126368299126625,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/22052.png",
+      "filename": "22052.png",
+      "is_forged": false,
+      "classifier_prob": 0.01231316663324833,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/22066.png",
+      "filename": "22066.png",
+      "is_forged": false,
+      "classifier_prob": 0.003537133103236556,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/22182.png",
+      "filename": "22182.png",
+      "is_forged": false,
+      "classifier_prob": 0.014146121218800545,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/22274.png",
+      "filename": "22274.png",
+      "is_forged": false,
+      "classifier_prob": 0.6045621633529663,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.27089792490005493,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/2228.png",
+      "filename": "2228.png",
+      "is_forged": false,
+      "classifier_prob": 0.513937771320343,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.0008673101547174156,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/22719.png",
+      "filename": "22719.png",
+      "is_forged": false,
+      "classifier_prob": 0.5508942604064941,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.0048818704672157764,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/22739.png",
+      "filename": "22739.png",
+      "is_forged": false,
+      "classifier_prob": 0.3095397353172302,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.13363230228424072,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/2275.png",
+      "filename": "2275.png",
+      "is_forged": false,
+      "classifier_prob": 0.5545097589492798,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.05670151114463806,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/2276.png",
+      "filename": "2276.png",
+      "is_forged": false,
+      "classifier_prob": 0.03826579079031944,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/230.png",
+      "filename": "230.png",
+      "is_forged": false,
+      "classifier_prob": 0.002173918066546321,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/23115.png",
+      "filename": "23115.png",
+      "is_forged": false,
+      "classifier_prob": 0.0030710878781974316,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/23146.png",
+      "filename": "23146.png",
+      "is_forged": false,
+      "classifier_prob": 0.001148501061834395,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/23223.png",
+      "filename": "23223.png",
+      "is_forged": false,
+      "classifier_prob": 0.008053888566792011,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/23391.png",
+      "filename": "23391.png",
+      "is_forged": false,
+      "classifier_prob": 0.09597553312778473,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/23463.png",
+      "filename": "23463.png",
+      "is_forged": false,
+      "classifier_prob": 0.04924993962049484,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/23499.png",
+      "filename": "23499.png",
+      "is_forged": false,
+      "classifier_prob": 0.0067772637121379375,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/23502.png",
+      "filename": "23502.png",
+      "is_forged": false,
+      "classifier_prob": 0.5890004634857178,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.09770511090755463,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/23665.png",
+      "filename": "23665.png",
+      "is_forged": false,
+      "classifier_prob": 0.11728911846876144,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/24012.png",
+      "filename": "24012.png",
+      "is_forged": false,
+      "classifier_prob": 0.023959742859005928,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/24027.png",
+      "filename": "24027.png",
+      "is_forged": false,
+      "classifier_prob": 0.0028972227592021227,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/24193.png",
+      "filename": "24193.png",
+      "is_forged": false,
+      "classifier_prob": 0.5618698000907898,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.00037669565062969923,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/24351.png",
+      "filename": "24351.png",
+      "is_forged": false,
+      "classifier_prob": 0.0037652028258889914,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/24554.png",
+      "filename": "24554.png",
+      "is_forged": false,
+      "classifier_prob": 0.2494543492794037,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/24635.png",
+      "filename": "24635.png",
+      "is_forged": false,
+      "classifier_prob": 0.5328524112701416,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.33189135789871216,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/2476.png",
+      "filename": "2476.png",
+      "is_forged": false,
+      "classifier_prob": 0.003240881022065878,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/24770.png",
+      "filename": "24770.png",
+      "is_forged": false,
+      "classifier_prob": 0.000320177961839363,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/24912.png",
+      "filename": "24912.png",
+      "is_forged": false,
+      "classifier_prob": 0.028088727965950966,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/24937.png",
+      "filename": "24937.png",
+      "is_forged": false,
+      "classifier_prob": 0.001075250213034451,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/2506.png",
+      "filename": "2506.png",
+      "is_forged": false,
+      "classifier_prob": 0.0015665300888940692,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/25067.png",
+      "filename": "25067.png",
+      "is_forged": false,
+      "classifier_prob": 0.3071642518043518,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.16480790078639984,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/25285.png",
+      "filename": "25285.png",
+      "is_forged": false,
+      "classifier_prob": 0.5494447350502014,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.0006962585030123591,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/25311.png",
+      "filename": "25311.png",
+      "is_forged": false,
+      "classifier_prob": 0.5493857860565186,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.058845486491918564,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/25340.png",
+      "filename": "25340.png",
+      "is_forged": false,
+      "classifier_prob": 0.5082777142524719,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.2492428719997406,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/25351.png",
+      "filename": "25351.png",
+      "is_forged": false,
+      "classifier_prob": 0.33847948908805847,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.3070857524871826,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/25388.png",
+      "filename": "25388.png",
+      "is_forged": false,
+      "classifier_prob": 0.47602933645248413,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.4656112790107727,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/25443.png",
+      "filename": "25443.png",
+      "is_forged": false,
+      "classifier_prob": 0.47800368070602417,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.0008346457616426051,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/25486.png",
+      "filename": "25486.png",
+      "is_forged": false,
+      "classifier_prob": 0.0008331231656484306,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/25715.png",
+      "filename": "25715.png",
+      "is_forged": false,
+      "classifier_prob": 0.03785719722509384,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/25764.png",
+      "filename": "25764.png",
+      "is_forged": false,
+      "classifier_prob": 0.020041540265083313,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/26015.png",
+      "filename": "26015.png",
+      "is_forged": false,
+      "classifier_prob": 0.014815256930887699,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/26049.png",
+      "filename": "26049.png",
+      "is_forged": false,
+      "classifier_prob": 0.0317985862493515,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/26208.png",
+      "filename": "26208.png",
+      "is_forged": false,
+      "classifier_prob": 0.5195082426071167,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.0007000534096732736,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/26335.png",
+      "filename": "26335.png",
+      "is_forged": false,
+      "classifier_prob": 0.02802341803908348,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/26370.png",
+      "filename": "26370.png",
+      "is_forged": false,
+      "classifier_prob": 0.007916745729744434,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/26492.png",
+      "filename": "26492.png",
+      "is_forged": false,
+      "classifier_prob": 0.46307268738746643,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.06571988761425018,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/26499.png",
+      "filename": "26499.png",
+      "is_forged": false,
+      "classifier_prob": 0.2560162842273712,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.010128176771104336,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/27300.png",
+      "filename": "27300.png",
+      "is_forged": false,
+      "classifier_prob": 0.023870499804615974,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/27454.png",
+      "filename": "27454.png",
+      "is_forged": false,
+      "classifier_prob": 0.0049856845289468765,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/27620.png",
+      "filename": "27620.png",
+      "is_forged": false,
+      "classifier_prob": 0.47135454416275024,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.0008457525400444865,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/27822.png",
+      "filename": "27822.png",
+      "is_forged": true,
+      "classifier_prob": 0.5505831837654114,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.7449842691421509,
+      "forgery_area": 1286
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/27896.png",
+      "filename": "27896.png",
+      "is_forged": false,
+      "classifier_prob": 0.027013981714844704,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/27929.png",
+      "filename": "27929.png",
+      "is_forged": false,
+      "classifier_prob": 0.03439726307988167,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/27957.png",
+      "filename": "27957.png",
+      "is_forged": false,
+      "classifier_prob": 0.5128421783447266,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.6120643019676208,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/28061.png",
+      "filename": "28061.png",
+      "is_forged": false,
+      "classifier_prob": 0.001261733123101294,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/28195.png",
+      "filename": "28195.png",
+      "is_forged": false,
+      "classifier_prob": 0.5557907223701477,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.2401077300310135,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/28248.png",
+      "filename": "28248.png",
+      "is_forged": false,
+      "classifier_prob": 0.004979344550520182,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/28559.png",
+      "filename": "28559.png",
+      "is_forged": false,
+      "classifier_prob": 0.0835937038064003,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/28714.png",
+      "filename": "28714.png",
+      "is_forged": false,
+      "classifier_prob": 0.0019817850552499294,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/28878.png",
+      "filename": "28878.png",
+      "is_forged": false,
+      "classifier_prob": 0.5810441970825195,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.009420267306268215,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/28879.png",
+      "filename": "28879.png",
+      "is_forged": false,
+      "classifier_prob": 0.0013424252392724156,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/28922.png",
+      "filename": "28922.png",
+      "is_forged": false,
+      "classifier_prob": 0.02752692997455597,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/28972.png",
+      "filename": "28972.png",
+      "is_forged": false,
+      "classifier_prob": 0.5499481558799744,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.2492365688085556,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/29010.png",
+      "filename": "29010.png",
+      "is_forged": false,
+      "classifier_prob": 0.5691102743148804,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.49057209491729736,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/29076.png",
+      "filename": "29076.png",
+      "is_forged": false,
+      "classifier_prob": 0.010547477751970291,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/2910.png",
+      "filename": "2910.png",
+      "is_forged": false,
+      "classifier_prob": 0.052981775254011154,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/29229.png",
+      "filename": "29229.png",
+      "is_forged": false,
+      "classifier_prob": 0.0008505729492753744,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/29277.png",
+      "filename": "29277.png",
+      "is_forged": false,
+      "classifier_prob": 0.5688006281852722,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.008464894257485867,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/29607.png",
+      "filename": "29607.png",
+      "is_forged": false,
+      "classifier_prob": 0.1987256109714508,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/29671.png",
+      "filename": "29671.png",
+      "is_forged": true,
+      "classifier_prob": 0.47065988183021545,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.549052357673645,
+      "forgery_area": 676
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/29679.png",
+      "filename": "29679.png",
+      "is_forged": false,
+      "classifier_prob": 0.006789896637201309,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/29797.png",
+      "filename": "29797.png",
+      "is_forged": false,
+      "classifier_prob": 0.08610580116510391,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/29899.png",
+      "filename": "29899.png",
+      "is_forged": false,
+      "classifier_prob": 0.0016385705675929785,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/30045.png",
+      "filename": "30045.png",
+      "is_forged": false,
+      "classifier_prob": 0.041164811700582504,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/30344.png",
+      "filename": "30344.png",
+      "is_forged": false,
+      "classifier_prob": 0.2571565508842468,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.0004830630496144295,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/30354.png",
+      "filename": "30354.png",
+      "is_forged": false,
+      "classifier_prob": 0.0007109243888407946,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/30389.png",
+      "filename": "30389.png",
+      "is_forged": false,
+      "classifier_prob": 0.014814136549830437,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/30476.png",
+      "filename": "30476.png",
+      "is_forged": false,
+      "classifier_prob": 0.03138555958867073,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/30871.png",
+      "filename": "30871.png",
+      "is_forged": false,
+      "classifier_prob": 0.5114372968673706,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.001428758492693305,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/30914.png",
+      "filename": "30914.png",
+      "is_forged": false,
+      "classifier_prob": 0.1307978332042694,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/31089.png",
+      "filename": "31089.png",
+      "is_forged": false,
+      "classifier_prob": 0.06195298209786415,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/31218.png",
+      "filename": "31218.png",
+      "is_forged": false,
+      "classifier_prob": 0.0036696782335639,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/31222.png",
+      "filename": "31222.png",
+      "is_forged": false,
+      "classifier_prob": 0.010575123131275177,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/31301.png",
+      "filename": "31301.png",
+      "is_forged": false,
+      "classifier_prob": 0.06552331894636154,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/31354.png",
+      "filename": "31354.png",
+      "is_forged": false,
+      "classifier_prob": 0.008816911838948727,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/31812.png",
+      "filename": "31812.png",
+      "is_forged": false,
+      "classifier_prob": 0.2845989763736725,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.9921444654464722,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/31864.png",
+      "filename": "31864.png",
+      "is_forged": false,
+      "classifier_prob": 0.001770774950273335,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/32011.png",
+      "filename": "32011.png",
+      "is_forged": false,
+      "classifier_prob": 0.3997122049331665,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.48888981342315674,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/32222.png",
+      "filename": "32222.png",
+      "is_forged": false,
+      "classifier_prob": 0.014074176549911499,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/32535.png",
+      "filename": "32535.png",
+      "is_forged": false,
+      "classifier_prob": 0.4324093461036682,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.25591975450515747,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/32575.png",
+      "filename": "32575.png",
+      "is_forged": false,
+      "classifier_prob": 0.016397133469581604,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/32845.png",
+      "filename": "32845.png",
+      "is_forged": false,
+      "classifier_prob": 0.00017574441153556108,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/32880.png",
+      "filename": "32880.png",
+      "is_forged": true,
+      "classifier_prob": 0.4785568118095398,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.9811618328094482,
+      "forgery_area": 367
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/32884.png",
+      "filename": "32884.png",
+      "is_forged": false,
+      "classifier_prob": 0.010513965040445328,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/330.png",
+      "filename": "330.png",
+      "is_forged": true,
+      "classifier_prob": 0.45843565464019775,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.7946750521659851,
+      "forgery_area": 1868
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/33064.png",
+      "filename": "33064.png",
+      "is_forged": false,
+      "classifier_prob": 0.007723937276750803,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/33205.png",
+      "filename": "33205.png",
+      "is_forged": false,
+      "classifier_prob": 0.5522453784942627,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.23999372124671936,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/33287.png",
+      "filename": "33287.png",
+      "is_forged": false,
+      "classifier_prob": 0.43084341287612915,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.2291446179151535,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/33319.png",
+      "filename": "33319.png",
+      "is_forged": false,
+      "classifier_prob": 0.09499610215425491,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/33392.png",
+      "filename": "33392.png",
+      "is_forged": false,
+      "classifier_prob": 0.49662840366363525,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.000419885094743222,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/3367.png",
+      "filename": "3367.png",
+      "is_forged": false,
+      "classifier_prob": 0.5325177311897278,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.14701290428638458,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/33689.png",
+      "filename": "33689.png",
+      "is_forged": false,
+      "classifier_prob": 0.0019866081420332193,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/33791.png",
+      "filename": "33791.png",
+      "is_forged": false,
+      "classifier_prob": 0.5244302749633789,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.00041983716073445976,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/34211.png",
+      "filename": "34211.png",
+      "is_forged": false,
+      "classifier_prob": 0.03818902745842934,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/34415.png",
+      "filename": "34415.png",
+      "is_forged": false,
+      "classifier_prob": 0.00042160923476330936,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/34597.png",
+      "filename": "34597.png",
+      "is_forged": false,
+      "classifier_prob": 0.010840672999620438,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/34883.png",
+      "filename": "34883.png",
+      "is_forged": false,
+      "classifier_prob": 0.3189641535282135,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.17191629111766815,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/34992.png",
+      "filename": "34992.png",
+      "is_forged": false,
+      "classifier_prob": 0.6063965559005737,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.0018917726119980216,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/350.png",
+      "filename": "350.png",
+      "is_forged": true,
+      "classifier_prob": 0.34671154618263245,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.9975112080574036,
+      "forgery_area": 12774
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/35038.png",
+      "filename": "35038.png",
+      "is_forged": false,
+      "classifier_prob": 0.055005695670843124,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/35176.png",
+      "filename": "35176.png",
+      "is_forged": false,
+      "classifier_prob": 0.005227844230830669,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/35208.png",
+      "filename": "35208.png",
+      "is_forged": true,
+      "classifier_prob": 0.5340413451194763,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.9789464473724365,
+      "forgery_area": 368
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/35234.png",
+      "filename": "35234.png",
+      "is_forged": true,
+      "classifier_prob": 0.5006385445594788,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.5612406134605408,
+      "forgery_area": 629
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/35578.png",
+      "filename": "35578.png",
+      "is_forged": false,
+      "classifier_prob": 0.03883913904428482,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/35670.png",
+      "filename": "35670.png",
+      "is_forged": false,
+      "classifier_prob": 0.23965731263160706,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/35715.png",
+      "filename": "35715.png",
+      "is_forged": false,
+      "classifier_prob": 0.4705404043197632,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.5835745930671692,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/35717.png",
+      "filename": "35717.png",
+      "is_forged": false,
+      "classifier_prob": 0.0007588663138449192,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/35763.png",
+      "filename": "35763.png",
+      "is_forged": false,
+      "classifier_prob": 0.010659663937985897,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/35814.png",
+      "filename": "35814.png",
+      "is_forged": false,
+      "classifier_prob": 0.0007604524726048112,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/35933.png",
+      "filename": "35933.png",
+      "is_forged": false,
+      "classifier_prob": 0.00256623444147408,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/35950.png",
+      "filename": "35950.png",
+      "is_forged": false,
+      "classifier_prob": 0.00020677075372077525,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/36295.png",
+      "filename": "36295.png",
+      "is_forged": false,
+      "classifier_prob": 0.002433218527585268,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/36323.png",
+      "filename": "36323.png",
+      "is_forged": false,
+      "classifier_prob": 0.16764888167381287,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/36412.png",
+      "filename": "36412.png",
+      "is_forged": false,
+      "classifier_prob": 0.5340149998664856,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.23443982005119324,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/36707.png",
+      "filename": "36707.png",
+      "is_forged": false,
+      "classifier_prob": 0.00500108115375042,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/36746.png",
+      "filename": "36746.png",
+      "is_forged": false,
+      "classifier_prob": 0.01646398939192295,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/36968.png",
+      "filename": "36968.png",
+      "is_forged": false,
+      "classifier_prob": 0.038367100059986115,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/37084.png",
+      "filename": "37084.png",
+      "is_forged": false,
+      "classifier_prob": 0.000558494299184531,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/37164.png",
+      "filename": "37164.png",
+      "is_forged": false,
+      "classifier_prob": 0.020273912698030472,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/37364.png",
+      "filename": "37364.png",
+      "is_forged": false,
+      "classifier_prob": 0.0007548501016572118,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/37400.png",
+      "filename": "37400.png",
+      "is_forged": false,
+      "classifier_prob": 0.5554213523864746,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.06063602864742279,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/37423.png",
+      "filename": "37423.png",
+      "is_forged": false,
+      "classifier_prob": 0.002131752436980605,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/37556.png",
+      "filename": "37556.png",
+      "is_forged": false,
+      "classifier_prob": 0.01268965844064951,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/37583.png",
+      "filename": "37583.png",
+      "is_forged": false,
+      "classifier_prob": 0.008489211089909077,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/37639.png",
+      "filename": "37639.png",
+      "is_forged": false,
+      "classifier_prob": 0.011357344686985016,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/37817.png",
+      "filename": "37817.png",
+      "is_forged": false,
+      "classifier_prob": 0.6080683469772339,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.23739202320575714,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/37855.png",
+      "filename": "37855.png",
+      "is_forged": false,
+      "classifier_prob": 0.01682576723396778,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/37857.png",
+      "filename": "37857.png",
+      "is_forged": false,
+      "classifier_prob": 0.014504125341773033,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/37921.png",
+      "filename": "37921.png",
+      "is_forged": false,
+      "classifier_prob": 0.5537832379341125,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.00040729151805862784,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/3795.png",
+      "filename": "3795.png",
+      "is_forged": false,
+      "classifier_prob": 0.02631523460149765,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/37966.png",
+      "filename": "37966.png",
+      "is_forged": false,
+      "classifier_prob": 0.003219275502488017,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/37975.png",
+      "filename": "37975.png",
+      "is_forged": false,
+      "classifier_prob": 0.2480340301990509,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/38129.png",
+      "filename": "38129.png",
+      "is_forged": false,
+      "classifier_prob": 0.13668285310268402,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/38440.png",
+      "filename": "38440.png",
+      "is_forged": false,
+      "classifier_prob": 0.006958337035030127,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/38481.png",
+      "filename": "38481.png",
+      "is_forged": false,
+      "classifier_prob": 0.03436945751309395,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/38582.png",
+      "filename": "38582.png",
+      "is_forged": false,
+      "classifier_prob": 0.0020636506378650665,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/38800.png",
+      "filename": "38800.png",
+      "is_forged": false,
+      "classifier_prob": 0.9238735437393188,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.027722982689738274,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/39162.png",
+      "filename": "39162.png",
+      "is_forged": false,
+      "classifier_prob": 0.01947019249200821,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/39299.png",
+      "filename": "39299.png",
+      "is_forged": false,
+      "classifier_prob": 0.27535107731819153,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.002254669088870287,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/3934.png",
+      "filename": "3934.png",
+      "is_forged": false,
+      "classifier_prob": 0.004243758972734213,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/39341.png",
+      "filename": "39341.png",
+      "is_forged": false,
+      "classifier_prob": 0.017728475853800774,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/39573.png",
+      "filename": "39573.png",
+      "is_forged": false,
+      "classifier_prob": 0.00695807347074151,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/39620.png",
+      "filename": "39620.png",
+      "is_forged": false,
+      "classifier_prob": 0.0013171215541660786,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/39737.png",
+      "filename": "39737.png",
+      "is_forged": false,
+      "classifier_prob": 0.011223316192626953,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/40000.png",
+      "filename": "40000.png",
+      "is_forged": false,
+      "classifier_prob": 0.0008855682099238038,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/40022.png",
+      "filename": "40022.png",
+      "is_forged": false,
+      "classifier_prob": 0.0014520363183692098,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/4011.png",
+      "filename": "4011.png",
+      "is_forged": false,
+      "classifier_prob": 0.7109739184379578,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.12256116420030594,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/40298.png",
+      "filename": "40298.png",
+      "is_forged": false,
+      "classifier_prob": 0.521885097026825,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.23416690528392792,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/40354.png",
+      "filename": "40354.png",
+      "is_forged": false,
+      "classifier_prob": 0.05967048183083534,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/40364.png",
+      "filename": "40364.png",
+      "is_forged": false,
+      "classifier_prob": 0.13063381612300873,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/40372.png",
+      "filename": "40372.png",
+      "is_forged": false,
+      "classifier_prob": 0.000771254999563098,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/40398.png",
+      "filename": "40398.png",
+      "is_forged": false,
+      "classifier_prob": 0.571876585483551,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.24575050175189972,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/40478.png",
+      "filename": "40478.png",
+      "is_forged": false,
+      "classifier_prob": 0.035860825330019,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/40519.png",
+      "filename": "40519.png",
+      "is_forged": false,
+      "classifier_prob": 0.004143348429352045,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/4057.png",
+      "filename": "4057.png",
+      "is_forged": false,
+      "classifier_prob": 0.002604834968224168,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/40684.png",
+      "filename": "40684.png",
+      "is_forged": false,
+      "classifier_prob": 0.054496247321367264,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/40728.png",
+      "filename": "40728.png",
+      "is_forged": false,
+      "classifier_prob": 0.6898624897003174,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.7507096529006958,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/40828.png",
+      "filename": "40828.png",
+      "is_forged": false,
+      "classifier_prob": 0.0012042266316711903,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/40934.png",
+      "filename": "40934.png",
+      "is_forged": false,
+      "classifier_prob": 0.20686250925064087,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/40974.png",
+      "filename": "40974.png",
+      "is_forged": false,
+      "classifier_prob": 0.5457199811935425,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.22545126080513,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/41024.png",
+      "filename": "41024.png",
+      "is_forged": false,
+      "classifier_prob": 0.02016613818705082,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/41201.png",
+      "filename": "41201.png",
+      "is_forged": false,
+      "classifier_prob": 0.5422496795654297,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.4354763627052307,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/41565.png",
+      "filename": "41565.png",
+      "is_forged": false,
+      "classifier_prob": 0.0026163256261497736,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/41583.png",
+      "filename": "41583.png",
+      "is_forged": false,
+      "classifier_prob": 0.04711443930864334,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/41600.png",
+      "filename": "41600.png",
+      "is_forged": false,
+      "classifier_prob": 0.5310309529304504,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.3738691806793213,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/41726.png",
+      "filename": "41726.png",
+      "is_forged": false,
+      "classifier_prob": 0.006720088887959719,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/41816.png",
+      "filename": "41816.png",
+      "is_forged": false,
+      "classifier_prob": 0.00448388047516346,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/41852.png",
+      "filename": "41852.png",
+      "is_forged": false,
+      "classifier_prob": 0.4498455822467804,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.06309841573238373,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/42289.png",
+      "filename": "42289.png",
+      "is_forged": false,
+      "classifier_prob": 0.5007717609405518,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.001926979050040245,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/42742.png",
+      "filename": "42742.png",
+      "is_forged": false,
+      "classifier_prob": 0.0018871442880481482,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/42801.png",
+      "filename": "42801.png",
+      "is_forged": false,
+      "classifier_prob": 0.013237263076007366,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/42827.png",
+      "filename": "42827.png",
+      "is_forged": false,
+      "classifier_prob": 0.0032984178978949785,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/42832.png",
+      "filename": "42832.png",
+      "is_forged": false,
+      "classifier_prob": 0.2839030623435974,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.12734444439411163,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/42834.png",
+      "filename": "42834.png",
+      "is_forged": false,
+      "classifier_prob": 0.45423561334609985,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.6774376034736633,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/42983.png",
+      "filename": "42983.png",
+      "is_forged": false,
+      "classifier_prob": 0.004474495071917772,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/43128.png",
+      "filename": "43128.png",
+      "is_forged": false,
+      "classifier_prob": 0.002563362941145897,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/4321.png",
+      "filename": "4321.png",
+      "is_forged": false,
+      "classifier_prob": 0.007082160096615553,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/43222.png",
+      "filename": "43222.png",
+      "is_forged": false,
+      "classifier_prob": 0.015595224685966969,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/43285.png",
+      "filename": "43285.png",
+      "is_forged": false,
+      "classifier_prob": 0.08146767318248749,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/43459.png",
+      "filename": "43459.png",
+      "is_forged": false,
+      "classifier_prob": 0.12471488863229752,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/4371.png",
+      "filename": "4371.png",
+      "is_forged": false,
+      "classifier_prob": 0.5414592027664185,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.29962143301963806,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/43712.png",
+      "filename": "43712.png",
+      "is_forged": false,
+      "classifier_prob": 0.007184129673987627,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/43760.png",
+      "filename": "43760.png",
+      "is_forged": false,
+      "classifier_prob": 0.5836358666419983,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.0032146675512194633,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/43810.png",
+      "filename": "43810.png",
+      "is_forged": false,
+      "classifier_prob": 0.11408599466085434,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/43839.png",
+      "filename": "43839.png",
+      "is_forged": false,
+      "classifier_prob": 0.06148625537753105,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/44157.png",
+      "filename": "44157.png",
+      "is_forged": false,
+      "classifier_prob": 0.5628246068954468,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.020740941166877747,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/44231.png",
+      "filename": "44231.png",
+      "is_forged": false,
+      "classifier_prob": 0.005654690787196159,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/44311.png",
+      "filename": "44311.png",
+      "is_forged": false,
+      "classifier_prob": 0.5268857479095459,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.0193565022200346,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/44420.png",
+      "filename": "44420.png",
+      "is_forged": false,
+      "classifier_prob": 0.004971780348569155,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/44475.png",
+      "filename": "44475.png",
+      "is_forged": false,
+      "classifier_prob": 0.015200858004391193,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/44600.png",
+      "filename": "44600.png",
+      "is_forged": false,
+      "classifier_prob": 0.004289126489311457,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/44656.png",
+      "filename": "44656.png",
+      "is_forged": false,
+      "classifier_prob": 0.04640519618988037,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/44825.png",
+      "filename": "44825.png",
+      "is_forged": false,
+      "classifier_prob": 0.07870417833328247,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/45030.png",
+      "filename": "45030.png",
+      "is_forged": false,
+      "classifier_prob": 0.009752626530826092,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/4508.png",
+      "filename": "4508.png",
+      "is_forged": false,
+      "classifier_prob": 0.001655057305470109,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/45602.png",
+      "filename": "45602.png",
+      "is_forged": false,
+      "classifier_prob": 0.5131117105484009,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.25048530101776123,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/45686.png",
+      "filename": "45686.png",
+      "is_forged": false,
+      "classifier_prob": 0.011638147756457329,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/45712.png",
+      "filename": "45712.png",
+      "is_forged": false,
+      "classifier_prob": 0.027396487072110176,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/45866.png",
+      "filename": "45866.png",
+      "is_forged": false,
+      "classifier_prob": 0.012442679144442081,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/46083.png",
+      "filename": "46083.png",
+      "is_forged": false,
+      "classifier_prob": 0.006406309548765421,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/46175.png",
+      "filename": "46175.png",
+      "is_forged": false,
+      "classifier_prob": 0.13914336264133453,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/46202.png",
+      "filename": "46202.png",
+      "is_forged": false,
+      "classifier_prob": 0.3774369955062866,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.007061007432639599,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/46312.png",
+      "filename": "46312.png",
+      "is_forged": false,
+      "classifier_prob": 0.3673379719257355,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.2507018446922302,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/46444.png",
+      "filename": "46444.png",
+      "is_forged": false,
+      "classifier_prob": 0.5316100120544434,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.000771894003264606,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/46473.png",
+      "filename": "46473.png",
+      "is_forged": false,
+      "classifier_prob": 0.39358097314834595,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.5285859107971191,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/46511.png",
+      "filename": "46511.png",
+      "is_forged": false,
+      "classifier_prob": 0.0012059720465913415,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/46698.png",
+      "filename": "46698.png",
+      "is_forged": false,
+      "classifier_prob": 0.09237320721149445,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/46849.png",
+      "filename": "46849.png",
+      "is_forged": false,
+      "classifier_prob": 0.021815156564116478,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/46907.png",
+      "filename": "46907.png",
+      "is_forged": false,
+      "classifier_prob": 0.501592218875885,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.0008740609046071768,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/46910.png",
+      "filename": "46910.png",
+      "is_forged": false,
+      "classifier_prob": 0.011199064552783966,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/47003.png",
+      "filename": "47003.png",
+      "is_forged": false,
+      "classifier_prob": 0.0011995843378826976,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/47376.png",
+      "filename": "47376.png",
+      "is_forged": false,
+      "classifier_prob": 0.03022150509059429,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/47405.png",
+      "filename": "47405.png",
+      "is_forged": false,
+      "classifier_prob": 0.48127809166908264,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.22960913181304932,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/47424.png",
+      "filename": "47424.png",
+      "is_forged": false,
+      "classifier_prob": 0.005774226039648056,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/47777.png",
+      "filename": "47777.png",
+      "is_forged": false,
+      "classifier_prob": 0.4990363121032715,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.07098817080259323,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/47980.png",
+      "filename": "47980.png",
+      "is_forged": false,
+      "classifier_prob": 0.008202691562473774,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/48113.png",
+      "filename": "48113.png",
+      "is_forged": false,
+      "classifier_prob": 0.0019430527463555336,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/48184.png",
+      "filename": "48184.png",
+      "is_forged": false,
+      "classifier_prob": 0.5249664187431335,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.07978276908397675,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/48255.png",
+      "filename": "48255.png",
+      "is_forged": false,
+      "classifier_prob": 0.02399507910013199,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/48271.png",
+      "filename": "48271.png",
+      "is_forged": false,
+      "classifier_prob": 0.25297921895980835,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.5356557369232178,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/48291.png",
+      "filename": "48291.png",
+      "is_forged": false,
+      "classifier_prob": 0.0019683854188770056,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/48293.png",
+      "filename": "48293.png",
+      "is_forged": false,
+      "classifier_prob": 0.07858628779649734,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/48358.png",
+      "filename": "48358.png",
+      "is_forged": false,
+      "classifier_prob": 0.022851908579468727,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/4853.png",
+      "filename": "4853.png",
+      "is_forged": false,
+      "classifier_prob": 0.000952746719121933,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/4858.png",
+      "filename": "4858.png",
+      "is_forged": false,
+      "classifier_prob": 0.05253370478749275,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/48704.png",
+      "filename": "48704.png",
+      "is_forged": false,
+      "classifier_prob": 0.0015447874320670962,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/48718.png",
+      "filename": "48718.png",
+      "is_forged": false,
+      "classifier_prob": 0.48772427439689636,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.0005528404726646841,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/48730.png",
+      "filename": "48730.png",
+      "is_forged": false,
+      "classifier_prob": 0.20605240762233734,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/49351.png",
+      "filename": "49351.png",
+      "is_forged": false,
+      "classifier_prob": 0.04935569688677788,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/49770.png",
+      "filename": "49770.png",
+      "is_forged": false,
+      "classifier_prob": 0.5566397309303284,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.0009097559959627688,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/50280.png",
+      "filename": "50280.png",
+      "is_forged": false,
+      "classifier_prob": 0.07820210605859756,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/50311.png",
+      "filename": "50311.png",
+      "is_forged": false,
+      "classifier_prob": 0.122522734105587,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/50471.png",
+      "filename": "50471.png",
+      "is_forged": false,
+      "classifier_prob": 0.12547700107097626,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/50505.png",
+      "filename": "50505.png",
+      "is_forged": false,
+      "classifier_prob": 0.007487020455300808,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/50673.png",
+      "filename": "50673.png",
+      "is_forged": false,
+      "classifier_prob": 0.5951106548309326,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.24910055100917816,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/50720.png",
+      "filename": "50720.png",
+      "is_forged": false,
+      "classifier_prob": 0.00428564939647913,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/5080.png",
+      "filename": "5080.png",
+      "is_forged": false,
+      "classifier_prob": 0.012078294530510902,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/50877.png",
+      "filename": "50877.png",
+      "is_forged": false,
+      "classifier_prob": 0.5880352258682251,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.014697765000164509,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/51069.png",
+      "filename": "51069.png",
+      "is_forged": true,
+      "classifier_prob": 0.45325392484664917,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.9932206273078918,
+      "forgery_area": 3039
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/51169.png",
+      "filename": "51169.png",
+      "is_forged": false,
+      "classifier_prob": 0.5240436792373657,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.15807008743286133,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/51345.png",
+      "filename": "51345.png",
+      "is_forged": false,
+      "classifier_prob": 0.09003301709890366,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/5151.png",
+      "filename": "5151.png",
+      "is_forged": false,
+      "classifier_prob": 0.002963737351819873,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/51552.png",
+      "filename": "51552.png",
+      "is_forged": false,
+      "classifier_prob": 0.021154969930648804,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/51718.png",
+      "filename": "51718.png",
+      "is_forged": false,
+      "classifier_prob": 0.5149345993995667,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.4965144395828247,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/51771.png",
+      "filename": "51771.png",
+      "is_forged": false,
+      "classifier_prob": 0.005746981129050255,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/52050.png",
+      "filename": "52050.png",
+      "is_forged": false,
+      "classifier_prob": 0.4803069531917572,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.24478130042552948,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/52559.png",
+      "filename": "52559.png",
+      "is_forged": false,
+      "classifier_prob": 0.003998821135610342,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/52644.png",
+      "filename": "52644.png",
+      "is_forged": false,
+      "classifier_prob": 0.0017121523851528764,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/52666.png",
+      "filename": "52666.png",
+      "is_forged": false,
+      "classifier_prob": 0.014886261895298958,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/52798.png",
+      "filename": "52798.png",
+      "is_forged": false,
+      "classifier_prob": 0.005184847861528397,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/52877.png",
+      "filename": "52877.png",
+      "is_forged": false,
+      "classifier_prob": 0.04773915931582451,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/53248.png",
+      "filename": "53248.png",
+      "is_forged": false,
+      "classifier_prob": 0.003898738883435726,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/53382.png",
+      "filename": "53382.png",
+      "is_forged": false,
+      "classifier_prob": 0.12740157544612885,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/53398.png",
+      "filename": "53398.png",
+      "is_forged": false,
+      "classifier_prob": 0.0037530686240643263,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/53404.png",
+      "filename": "53404.png",
+      "is_forged": false,
+      "classifier_prob": 0.015657776966691017,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/53464.png",
+      "filename": "53464.png",
+      "is_forged": false,
+      "classifier_prob": 0.2159862071275711,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/53495.png",
+      "filename": "53495.png",
+      "is_forged": false,
+      "classifier_prob": 0.012299129739403725,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/53570.png",
+      "filename": "53570.png",
+      "is_forged": false,
+      "classifier_prob": 0.00843404233455658,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/53763.png",
+      "filename": "53763.png",
+      "is_forged": false,
+      "classifier_prob": 0.032909855246543884,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/53772.png",
+      "filename": "53772.png",
+      "is_forged": false,
+      "classifier_prob": 0.2276403307914734,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/5384.png",
+      "filename": "5384.png",
+      "is_forged": false,
+      "classifier_prob": 0.0004071870935149491,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/5385.png",
+      "filename": "5385.png",
+      "is_forged": false,
+      "classifier_prob": 0.43424803018569946,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.002026381902396679,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/53877.png",
+      "filename": "53877.png",
+      "is_forged": false,
+      "classifier_prob": 0.007316600531339645,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/53963.png",
+      "filename": "53963.png",
+      "is_forged": false,
+      "classifier_prob": 0.06249065697193146,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/54000.png",
+      "filename": "54000.png",
+      "is_forged": false,
+      "classifier_prob": 0.22490231692790985,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/54019.png",
+      "filename": "54019.png",
+      "is_forged": false,
+      "classifier_prob": 0.0036942302249372005,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/54397.png",
+      "filename": "54397.png",
+      "is_forged": false,
+      "classifier_prob": 0.0026637387927621603,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/54527.png",
+      "filename": "54527.png",
+      "is_forged": false,
+      "classifier_prob": 0.02822316437959671,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/54945.png",
+      "filename": "54945.png",
+      "is_forged": false,
+      "classifier_prob": 0.00926964171230793,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/55072.png",
+      "filename": "55072.png",
+      "is_forged": false,
+      "classifier_prob": 0.012023834511637688,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/55112.png",
+      "filename": "55112.png",
+      "is_forged": false,
+      "classifier_prob": 0.008554123342037201,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/55226.png",
+      "filename": "55226.png",
+      "is_forged": false,
+      "classifier_prob": 0.01465695258229971,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/55497.png",
+      "filename": "55497.png",
+      "is_forged": false,
+      "classifier_prob": 0.5723288655281067,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.21630290150642395,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/55790.png",
+      "filename": "55790.png",
+      "is_forged": false,
+      "classifier_prob": 0.05398387461900711,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/56106.png",
+      "filename": "56106.png",
+      "is_forged": false,
+      "classifier_prob": 0.0267962459474802,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/56297.png",
+      "filename": "56297.png",
+      "is_forged": false,
+      "classifier_prob": 0.5045136213302612,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.0007059241179376841,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/56544.png",
+      "filename": "56544.png",
+      "is_forged": false,
+      "classifier_prob": 0.062431663274765015,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/56623.png",
+      "filename": "56623.png",
+      "is_forged": false,
+      "classifier_prob": 0.4126701354980469,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.25069597363471985,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/5675.png",
+      "filename": "5675.png",
+      "is_forged": false,
+      "classifier_prob": 0.04578099399805069,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/56793.png",
+      "filename": "56793.png",
+      "is_forged": false,
+      "classifier_prob": 0.006403135135769844,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/56838.png",
+      "filename": "56838.png",
+      "is_forged": false,
+      "classifier_prob": 0.09517641365528107,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/569.png",
+      "filename": "569.png",
+      "is_forged": false,
+      "classifier_prob": 0.025562133640050888,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/56964.png",
+      "filename": "56964.png",
+      "is_forged": false,
+      "classifier_prob": 0.3589450716972351,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.018012601882219315,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/57143.png",
+      "filename": "57143.png",
+      "is_forged": false,
+      "classifier_prob": 0.41351163387298584,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.02364460751414299,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/57239.png",
+      "filename": "57239.png",
+      "is_forged": false,
+      "classifier_prob": 0.017914021387696266,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/57324.png",
+      "filename": "57324.png",
+      "is_forged": false,
+      "classifier_prob": 0.037932246923446655,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/57398.png",
+      "filename": "57398.png",
+      "is_forged": false,
+      "classifier_prob": 0.0004357050929684192,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/5756.png",
+      "filename": "5756.png",
+      "is_forged": false,
+      "classifier_prob": 0.012269617058336735,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/57892.png",
+      "filename": "57892.png",
+      "is_forged": false,
+      "classifier_prob": 0.5499047040939331,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.4491860270500183,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/57993.png",
+      "filename": "57993.png",
+      "is_forged": false,
+      "classifier_prob": 0.002973305992782116,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/58419.png",
+      "filename": "58419.png",
+      "is_forged": false,
+      "classifier_prob": 0.004939170554280281,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/58445.png",
+      "filename": "58445.png",
+      "is_forged": false,
+      "classifier_prob": 0.04678327590227127,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/58588.png",
+      "filename": "58588.png",
+      "is_forged": false,
+      "classifier_prob": 0.2545754611492157,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.002175909234210849,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/58692.png",
+      "filename": "58692.png",
+      "is_forged": false,
+      "classifier_prob": 0.4798978269100189,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.0006206491379998624,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/58710.png",
+      "filename": "58710.png",
+      "is_forged": false,
+      "classifier_prob": 0.00822328869253397,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/58718.png",
+      "filename": "58718.png",
+      "is_forged": true,
+      "classifier_prob": 0.5674991607666016,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.7051584720611572,
+      "forgery_area": 6997
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/58782.png",
+      "filename": "58782.png",
+      "is_forged": false,
+      "classifier_prob": 0.11093191802501678,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/58876.png",
+      "filename": "58876.png",
+      "is_forged": false,
+      "classifier_prob": 0.8182029128074646,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.0005345141398720443,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/58955.png",
+      "filename": "58955.png",
+      "is_forged": false,
+      "classifier_prob": 0.0026519617531448603,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/59297.png",
+      "filename": "59297.png",
+      "is_forged": false,
+      "classifier_prob": 0.012600191868841648,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/59651.png",
+      "filename": "59651.png",
+      "is_forged": false,
+      "classifier_prob": 0.00035634267260320485,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/59951.png",
+      "filename": "59951.png",
+      "is_forged": false,
+      "classifier_prob": 0.002276018960401416,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/6006.png",
+      "filename": "6006.png",
+      "is_forged": false,
+      "classifier_prob": 0.3729107081890106,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.003890219610184431,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/60195.png",
+      "filename": "60195.png",
+      "is_forged": false,
+      "classifier_prob": 0.011303363367915154,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/60244.png",
+      "filename": "60244.png",
+      "is_forged": false,
+      "classifier_prob": 0.5633207559585571,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.0006893710815347731,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/60265.png",
+      "filename": "60265.png",
+      "is_forged": false,
+      "classifier_prob": 0.5583168268203735,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.022768337279558182,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/60323.png",
+      "filename": "60323.png",
+      "is_forged": false,
+      "classifier_prob": 0.9739260077476501,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.9921011924743652,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/60327.png",
+      "filename": "60327.png",
+      "is_forged": false,
+      "classifier_prob": 0.5153675675392151,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.2520275413990021,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/60434.png",
+      "filename": "60434.png",
+      "is_forged": false,
+      "classifier_prob": 0.17992208898067474,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/60457.png",
+      "filename": "60457.png",
+      "is_forged": false,
+      "classifier_prob": 0.012320161797106266,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/60527.png",
+      "filename": "60527.png",
+      "is_forged": false,
+      "classifier_prob": 0.04442863166332245,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/60539.png",
+      "filename": "60539.png",
+      "is_forged": false,
+      "classifier_prob": 0.5695233941078186,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.20708627998828888,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/60760.png",
+      "filename": "60760.png",
+      "is_forged": false,
+      "classifier_prob": 0.006906542461365461,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/60829.png",
+      "filename": "60829.png",
+      "is_forged": false,
+      "classifier_prob": 0.4988016188144684,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.0005301808705553412,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/60927.png",
+      "filename": "60927.png",
+      "is_forged": false,
+      "classifier_prob": 0.5306203365325928,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.0007106250850483775,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/610.png",
+      "filename": "610.png",
+      "is_forged": false,
+      "classifier_prob": 0.2126447856426239,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/61221.png",
+      "filename": "61221.png",
+      "is_forged": false,
+      "classifier_prob": 0.15965843200683594,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/61298.png",
+      "filename": "61298.png",
+      "is_forged": false,
+      "classifier_prob": 0.07213561236858368,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/61540.png",
+      "filename": "61540.png",
+      "is_forged": false,
+      "classifier_prob": 0.006028600037097931,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/61595.png",
+      "filename": "61595.png",
+      "is_forged": false,
+      "classifier_prob": 0.0017721157055348158,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/6187.png",
+      "filename": "6187.png",
+      "is_forged": false,
+      "classifier_prob": 0.23041747510433197,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/61883.png",
+      "filename": "61883.png",
+      "is_forged": false,
+      "classifier_prob": 0.09140811860561371,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/61903.png",
+      "filename": "61903.png",
+      "is_forged": false,
+      "classifier_prob": 0.008236704394221306,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/6212.png",
+      "filename": "6212.png",
+      "is_forged": false,
+      "classifier_prob": 0.0014133926015347242,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/62151.png",
+      "filename": "62151.png",
+      "is_forged": false,
+      "classifier_prob": 0.10382670164108276,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/62195.png",
+      "filename": "62195.png",
+      "is_forged": false,
+      "classifier_prob": 0.49491819739341736,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.0020358734764158726,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/62249.png",
+      "filename": "62249.png",
+      "is_forged": false,
+      "classifier_prob": 0.02251592092216015,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/62327.png",
+      "filename": "62327.png",
+      "is_forged": false,
+      "classifier_prob": 0.1139214038848877,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/62358.png",
+      "filename": "62358.png",
+      "is_forged": false,
+      "classifier_prob": 0.4839659631252289,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.37315723299980164,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/62463.png",
+      "filename": "62463.png",
+      "is_forged": false,
+      "classifier_prob": 0.10612013190984726,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/62793.png",
+      "filename": "62793.png",
+      "is_forged": false,
+      "classifier_prob": 0.19500716030597687,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/62833.png",
+      "filename": "62833.png",
+      "is_forged": false,
+      "classifier_prob": 0.5798026323318481,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.2502311170101166,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/633.png",
+      "filename": "633.png",
+      "is_forged": false,
+      "classifier_prob": 0.025413988158106804,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/63348.png",
+      "filename": "63348.png",
+      "is_forged": false,
+      "classifier_prob": 0.0030822253320366144,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/63531.png",
+      "filename": "63531.png",
+      "is_forged": false,
+      "classifier_prob": 0.016965694725513458,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/63547.png",
+      "filename": "63547.png",
+      "is_forged": false,
+      "classifier_prob": 0.00929301604628563,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/63654.png",
+      "filename": "63654.png",
+      "is_forged": false,
+      "classifier_prob": 0.004932875279337168,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/63687.png",
+      "filename": "63687.png",
+      "is_forged": false,
+      "classifier_prob": 0.006786077283322811,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/63689.png",
+      "filename": "63689.png",
+      "is_forged": false,
+      "classifier_prob": 0.08814693242311478,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/63793.png",
+      "filename": "63793.png",
+      "is_forged": false,
+      "classifier_prob": 0.00324250222183764,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/63798.png",
+      "filename": "63798.png",
+      "is_forged": false,
+      "classifier_prob": 0.537431001663208,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.25008469820022583,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/63834.png",
+      "filename": "63834.png",
+      "is_forged": false,
+      "classifier_prob": 0.015359824523329735,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/64006.png",
+      "filename": "64006.png",
+      "is_forged": false,
+      "classifier_prob": 0.005986935459077358,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/6406.png",
+      "filename": "6406.png",
+      "is_forged": false,
+      "classifier_prob": 0.04863772168755531,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/6407.png",
+      "filename": "6407.png",
+      "is_forged": false,
+      "classifier_prob": 0.0034696911461651325,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/64120.png",
+      "filename": "64120.png",
+      "is_forged": false,
+      "classifier_prob": 0.007819287478923798,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/64128.png",
+      "filename": "64128.png",
+      "is_forged": false,
+      "classifier_prob": 0.00026767898816615343,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/64134.png",
+      "filename": "64134.png",
+      "is_forged": false,
+      "classifier_prob": 0.07806505262851715,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/6419.png",
+      "filename": "6419.png",
+      "is_forged": false,
+      "classifier_prob": 0.45483797788619995,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.0005011412431485951,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/64233.png",
+      "filename": "64233.png",
+      "is_forged": false,
+      "classifier_prob": 0.4921731948852539,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.2501464784145355,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/64332.png",
+      "filename": "64332.png",
+      "is_forged": false,
+      "classifier_prob": 0.027106009423732758,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/64435.png",
+      "filename": "64435.png",
+      "is_forged": false,
+      "classifier_prob": 0.0710691511631012,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/65177.png",
+      "filename": "65177.png",
+      "is_forged": false,
+      "classifier_prob": 0.24860592186450958,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/65189.png",
+      "filename": "65189.png",
+      "is_forged": false,
+      "classifier_prob": 0.0005355025641620159,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/65214.png",
+      "filename": "65214.png",
+      "is_forged": false,
+      "classifier_prob": 0.02472342737019062,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/65230.png",
+      "filename": "65230.png",
+      "is_forged": false,
+      "classifier_prob": 0.037251152098178864,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/65396.png",
+      "filename": "65396.png",
+      "is_forged": false,
+      "classifier_prob": 0.037806641310453415,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/65465.png",
+      "filename": "65465.png",
+      "is_forged": false,
+      "classifier_prob": 0.015830431133508682,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/6658.png",
+      "filename": "6658.png",
+      "is_forged": false,
+      "classifier_prob": 0.03882953152060509,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/6729.png",
+      "filename": "6729.png",
+      "is_forged": false,
+      "classifier_prob": 0.37989509105682373,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.0009828570764511824,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/6782.png",
+      "filename": "6782.png",
+      "is_forged": false,
+      "classifier_prob": 0.0030559333972632885,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/6800.png",
+      "filename": "6800.png",
+      "is_forged": false,
+      "classifier_prob": 0.00739402137696743,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/6857.png",
+      "filename": "6857.png",
+      "is_forged": false,
+      "classifier_prob": 0.0157517921179533,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/6892.png",
+      "filename": "6892.png",
+      "is_forged": false,
+      "classifier_prob": 0.0028152207378298044,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/7130.png",
+      "filename": "7130.png",
+      "is_forged": false,
+      "classifier_prob": 0.5439206957817078,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.02021847665309906,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/745.png",
+      "filename": "745.png",
+      "is_forged": false,
+      "classifier_prob": 0.5309010148048401,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.007552933879196644,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/7561.png",
+      "filename": "7561.png",
+      "is_forged": false,
+      "classifier_prob": 0.0595439113676548,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/7698.png",
+      "filename": "7698.png",
+      "is_forged": false,
+      "classifier_prob": 0.5779288411140442,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.008519045077264309,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/7705.png",
+      "filename": "7705.png",
+      "is_forged": false,
+      "classifier_prob": 0.002066370565444231,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/775.png",
+      "filename": "775.png",
+      "is_forged": false,
+      "classifier_prob": 0.0004467768012546003,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/8081.png",
+      "filename": "8081.png",
+      "is_forged": false,
+      "classifier_prob": 0.007382474839687347,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/8169.png",
+      "filename": "8169.png",
+      "is_forged": false,
+      "classifier_prob": 0.015597611665725708,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/8214.png",
+      "filename": "8214.png",
+      "is_forged": false,
+      "classifier_prob": 0.3174530863761902,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.3016361892223358,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/8388.png",
+      "filename": "8388.png",
+      "is_forged": false,
+      "classifier_prob": 0.001005746889859438,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/842.png",
+      "filename": "842.png",
+      "is_forged": false,
+      "classifier_prob": 0.5411146283149719,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.251537948846817,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/8565.png",
+      "filename": "8565.png",
+      "is_forged": false,
+      "classifier_prob": 0.14349398016929626,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/8613.png",
+      "filename": "8613.png",
+      "is_forged": false,
+      "classifier_prob": 0.0032071659807115793,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/8622.png",
+      "filename": "8622.png",
+      "is_forged": false,
+      "classifier_prob": 0.20727869868278503,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/8681.png",
+      "filename": "8681.png",
+      "is_forged": false,
+      "classifier_prob": 0.022076794877648354,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/8976.png",
+      "filename": "8976.png",
+      "is_forged": false,
+      "classifier_prob": 0.008261453360319138,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/9206.png",
+      "filename": "9206.png",
+      "is_forged": false,
+      "classifier_prob": 0.5990813374519348,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.2512257397174835,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/9768.png",
+      "filename": "9768.png",
+      "is_forged": false,
+      "classifier_prob": 0.5798365473747253,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.012596216052770615,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/9976.png",
+      "filename": "9976.png",
+      "is_forged": false,
+      "classifier_prob": 0.0021458992268890142,
+      "passed_to_segmentation": false,
+      "seg_max_prob": 0.0,
+      "forgery_area": 0
+    },
+    {
+      "image": "/home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100/9977.png",
+      "filename": "9977.png",
+      "is_forged": false,
+      "classifier_prob": 0.8773278594017029,
+      "passed_to_segmentation": true,
+      "seg_max_prob": 0.0016915274318307638,
+      "forgery_area": 0
+    }
+  ]
+}

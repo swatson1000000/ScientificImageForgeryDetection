@@ -7,227 +7,177 @@ Batch size: 4
 Epochs: 25
 
 Original forged: 2751
-Augmented forged: 8182
-Total forged: 10933
+Augmented forged: 8183
+Total forged: 10934
 Original authentic: 2377
 Total authentic: 2377
-Hard negatives: 13
+Skipping hard negatives (--no-hard-negatives flag)
+Hard negatives: 0
 
+Skipping hard_negative model (--no-hard-negatives flag set)
 ================================================================================
 TRAINING: highres_no_ela
 ================================================================================
-Dataset: 10933 forged + 2377 authentic + 13 hard neg
-Total samples: 13323
-Batches per epoch: 3331
+Dataset: 10934 forged + 2377 authentic + 0 hard neg
+Total samples: 13311
+Batches per epoch: 3328
 Parameters: 9,465,556
-Epoch 1: Loss=0.3853
+Epoch 1: Loss=0.3881
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/highres_no_ela_v3_best.pth
-Epoch 2: Loss=0.3509
+Epoch 2: Loss=0.3553
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/highres_no_ela_v3_best.pth
-Epoch 3: Loss=0.3356
+Epoch 3: Loss=0.3389
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/highres_no_ela_v3_best.pth
-Epoch 4: Loss=0.3246
+Epoch 4: Loss=0.3232
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/highres_no_ela_v3_best.pth
-Epoch 5: Loss=0.3199
+Epoch 5: Loss=0.3170
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/highres_no_ela_v3_best.pth
-Epoch 6: Loss=0.3083
+Epoch 6: Loss=0.3111
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/highres_no_ela_v3_best.pth
-Epoch 7: Loss=0.3063
+Epoch 7: Loss=0.3083
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/highres_no_ela_v3_best.pth
-Epoch 8: Loss=0.3003
+Epoch 8: Loss=0.2979
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/highres_no_ela_v3_best.pth
-Epoch 9: Loss=0.2895
+Epoch 9: Loss=0.2906
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/highres_no_ela_v3_best.pth
-Epoch 10: Loss=0.2909
-Epoch 11: Loss=0.2822
+Epoch 10: Loss=0.2849
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/highres_no_ela_v3_best.pth
-Epoch 12: Loss=0.2782
+Epoch 11: Loss=0.2870
+Epoch 12: Loss=0.2784
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/highres_no_ela_v3_best.pth
-Epoch 13: Loss=0.2724
+Epoch 13: Loss=0.2743
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/highres_no_ela_v3_best.pth
-Epoch 14: Loss=0.2680
+Epoch 14: Loss=0.2694
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/highres_no_ela_v3_best.pth
-Epoch 15: Loss=0.2586
+Epoch 15: Loss=0.2619
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/highres_no_ela_v3_best.pth
-Epoch 16: Loss=0.2597
-Epoch 17: Loss=0.2593
-Epoch 18: Loss=0.2552
+Epoch 16: Loss=0.2605
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/highres_no_ela_v3_best.pth
-Epoch 19: Loss=0.2505
+Epoch 17: Loss=0.2573
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/highres_no_ela_v3_best.pth
-Epoch 20: Loss=0.2463
+Epoch 18: Loss=0.2516
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/highres_no_ela_v3_best.pth
-Epoch 21: Loss=0.2482
-Epoch 22: Loss=0.2471
-Epoch 23: Loss=0.2474
-Epoch 24: Loss=0.2446
+Epoch 19: Loss=0.2504
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/highres_no_ela_v3_best.pth
-Epoch 25: Loss=0.2416
+Epoch 20: Loss=0.2477
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/highres_no_ela_v3_best.pth
+Epoch 21: Loss=0.2448
+  ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/highres_no_ela_v3_best.pth
+Epoch 22: Loss=0.2435
+  ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/highres_no_ela_v3_best.pth
+Epoch 23: Loss=0.2399
+  ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/highres_no_ela_v3_best.pth
+Epoch 24: Loss=0.2433
+Epoch 25: Loss=0.2436
 
-Training complete. Best loss: 0.2416
-
-================================================================================
-TRAINING: hard_negative
-================================================================================
-Dataset: 10933 forged + 2377 authentic + 13 hard neg
-Total samples: 13323
-Batches per epoch: 3331
-Parameters: 9,465,556
-Epoch 1: Loss=0.3871
-  ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/hard_negative_v3_best.pth
-Epoch 2: Loss=0.3484
-  ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/hard_negative_v3_best.pth
-Epoch 3: Loss=0.3347
-  ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/hard_negative_v3_best.pth
-Epoch 4: Loss=0.3261
-  ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/hard_negative_v3_best.pth
-Epoch 5: Loss=0.3202
-  ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/hard_negative_v3_best.pth
-Epoch 6: Loss=0.3165
-  ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/hard_negative_v3_best.pth
-Epoch 7: Loss=0.3070
-  ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/hard_negative_v3_best.pth
-Epoch 8: Loss=0.2998
-  ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/hard_negative_v3_best.pth
-Epoch 9: Loss=0.2949
-  ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/hard_negative_v3_best.pth
-Epoch 10: Loss=0.2877
-  ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/hard_negative_v3_best.pth
-Epoch 11: Loss=0.2885
-Epoch 12: Loss=0.2797
-  ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/hard_negative_v3_best.pth
-Epoch 13: Loss=0.2785
-  ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/hard_negative_v3_best.pth
-Epoch 14: Loss=0.2716
-  ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/hard_negative_v3_best.pth
-Epoch 15: Loss=0.2670
-  ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/hard_negative_v3_best.pth
-Epoch 16: Loss=0.2587
-  ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/hard_negative_v3_best.pth
-Epoch 17: Loss=0.2585
-  ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/hard_negative_v3_best.pth
-Epoch 18: Loss=0.2545
-  ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/hard_negative_v3_best.pth
-Epoch 19: Loss=0.2541
-  ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/hard_negative_v3_best.pth
-Epoch 20: Loss=0.2508
-  ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/hard_negative_v3_best.pth
-Epoch 21: Loss=0.2468
-  ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/hard_negative_v3_best.pth
-Epoch 22: Loss=0.2441
-  ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/hard_negative_v3_best.pth
-Epoch 23: Loss=0.2397
-  ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/hard_negative_v3_best.pth
-Epoch 24: Loss=0.2452
-Epoch 25: Loss=0.2458
-
-Training complete. Best loss: 0.2397
+Training complete. Best loss: 0.2399
 
 ================================================================================
 TRAINING: high_recall
 ================================================================================
-Dataset: 10933 forged + 2377 authentic + 13 hard neg
-Total samples: 13323
-Batches per epoch: 3331
+Dataset: 10934 forged + 2377 authentic + 0 hard neg
+Total samples: 13311
+Batches per epoch: 3328
 Parameters: 9,465,556
-Epoch 1: Loss=0.3847
+Epoch 1: Loss=0.3885
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/high_recall_v3_best.pth
-Epoch 2: Loss=0.3505
+Epoch 2: Loss=0.3470
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/high_recall_v3_best.pth
-Epoch 3: Loss=0.3343
+Epoch 3: Loss=0.3355
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/high_recall_v3_best.pth
-Epoch 4: Loss=0.3276
+Epoch 4: Loss=0.3230
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/high_recall_v3_best.pth
-Epoch 5: Loss=0.3194
+Epoch 5: Loss=0.3203
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/high_recall_v3_best.pth
 Epoch 6: Loss=0.3103
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/high_recall_v3_best.pth
-Epoch 7: Loss=0.3017
+Epoch 7: Loss=0.3041
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/high_recall_v3_best.pth
-Epoch 8: Loss=0.3003
+Epoch 8: Loss=0.2984
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/high_recall_v3_best.pth
-Epoch 9: Loss=0.2974
+Epoch 9: Loss=0.2931
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/high_recall_v3_best.pth
-Epoch 10: Loss=0.2871
+Epoch 10: Loss=0.2882
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/high_recall_v3_best.pth
-Epoch 11: Loss=0.2885
-Epoch 12: Loss=0.2808
+Epoch 11: Loss=0.2823
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/high_recall_v3_best.pth
-Epoch 13: Loss=0.2745
+Epoch 12: Loss=0.2756
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/high_recall_v3_best.pth
-Epoch 14: Loss=0.2731
+Epoch 13: Loss=0.2714
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/high_recall_v3_best.pth
-Epoch 15: Loss=0.2665
+Epoch 14: Loss=0.2665
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/high_recall_v3_best.pth
-Epoch 16: Loss=0.2575
+Epoch 15: Loss=0.2672
+Epoch 16: Loss=0.2632
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/high_recall_v3_best.pth
-Epoch 17: Loss=0.2605
-Epoch 18: Loss=0.2596
-Epoch 19: Loss=0.2545
+Epoch 17: Loss=0.2561
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/high_recall_v3_best.pth
-Epoch 20: Loss=0.2475
+Epoch 18: Loss=0.2576
+Epoch 19: Loss=0.2474
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/high_recall_v3_best.pth
-Epoch 21: Loss=0.2552
-Epoch 22: Loss=0.2449
+Epoch 20: Loss=0.2425
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/high_recall_v3_best.pth
-Epoch 23: Loss=0.2496
-Epoch 24: Loss=0.2476
-Epoch 25: Loss=0.2451
+Epoch 21: Loss=0.2437
+Epoch 22: Loss=0.2452
+Epoch 23: Loss=0.2473
+Epoch 24: Loss=0.2457
+Epoch 25: Loss=0.2407
+  ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/high_recall_v3_best.pth
 
-Training complete. Best loss: 0.2449
+Training complete. Best loss: 0.2407
 
 ================================================================================
 TRAINING: enhanced_aug
 ================================================================================
-Dataset: 10933 forged + 2377 authentic + 13 hard neg
-Total samples: 13323
-Batches per epoch: 3331
+Dataset: 10934 forged + 2377 authentic + 0 hard neg
+Total samples: 13311
+Batches per epoch: 3328
 Parameters: 9,465,556
-Epoch 1: Loss=0.3884
+Epoch 1: Loss=0.3862
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/enhanced_aug_v3_best.pth
-Epoch 2: Loss=0.3512
+Epoch 2: Loss=0.3497
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/enhanced_aug_v3_best.pth
-Epoch 3: Loss=0.3387
+Epoch 3: Loss=0.3331
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/enhanced_aug_v3_best.pth
-Epoch 4: Loss=0.3284
+Epoch 4: Loss=0.3256
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/enhanced_aug_v3_best.pth
-Epoch 5: Loss=0.3213
+Epoch 5: Loss=0.3184
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/enhanced_aug_v3_best.pth
-Epoch 6: Loss=0.3084
+Epoch 6: Loss=0.3104
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/enhanced_aug_v3_best.pth
-Epoch 7: Loss=0.3029
+Epoch 7: Loss=0.3022
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/enhanced_aug_v3_best.pth
-Epoch 8: Loss=0.2967
+Epoch 8: Loss=0.2979
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/enhanced_aug_v3_best.pth
-Epoch 9: Loss=0.2930
+Epoch 9: Loss=0.2928
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/enhanced_aug_v3_best.pth
-Epoch 10: Loss=0.2907
+Epoch 10: Loss=0.2877
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/enhanced_aug_v3_best.pth
-Epoch 11: Loss=0.2815
+Epoch 11: Loss=0.2809
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/enhanced_aug_v3_best.pth
-Epoch 12: Loss=0.2771
+Epoch 12: Loss=0.2747
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/enhanced_aug_v3_best.pth
-Epoch 13: Loss=0.2744
+Epoch 13: Loss=0.2702
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/enhanced_aug_v3_best.pth
-Epoch 14: Loss=0.2656
+Epoch 14: Loss=0.2690
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/enhanced_aug_v3_best.pth
-Epoch 15: Loss=0.2682
-Epoch 16: Loss=0.2571
+Epoch 15: Loss=0.2690
+Epoch 16: Loss=0.2610
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/enhanced_aug_v3_best.pth
-Epoch 17: Loss=0.2528
+Epoch 17: Loss=0.2513
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/enhanced_aug_v3_best.pth
-Epoch 18: Loss=0.2544
-Epoch 19: Loss=0.2512
+Epoch 18: Loss=0.2531
+Epoch 19: Loss=0.2502
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/enhanced_aug_v3_best.pth
 Epoch 20: Loss=0.2490
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/enhanced_aug_v3_best.pth
-Epoch 21: Loss=0.2509
-Epoch 22: Loss=0.2422
+Epoch 21: Loss=0.2516
+Epoch 22: Loss=0.2411
   ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/enhanced_aug_v3_best.pth
-Epoch 23: Loss=0.2429
-Epoch 24: Loss=0.2454
-Epoch 25: Loss=0.2444
+Epoch 23: Loss=0.2436
+Epoch 24: Loss=0.2373
+  ✓ Saved best model to /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/models/enhanced_aug_v3_best.pth
+Epoch 25: Loss=0.2418
 
-Training complete. Best loss: 0.2422
+Training complete. Best loss: 0.2373
 

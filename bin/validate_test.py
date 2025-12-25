@@ -157,7 +157,7 @@ def apply_tta(model, img_tensor):
 
 
 def get_adaptive_threshold(img_bgr, base_threshold=0.35):
-    """Adaptive threshold based on image brightness (matches script_3)."""
+    """Adaptive threshold based on image brightness (matches script_4)."""
     gray = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2GRAY)
     brightness = np.mean(gray)  # 0-255 scale
     
@@ -207,7 +207,7 @@ def run_inference(classifier, seg_models, img_path, classifier_threshold=0.25,
     # Apply threshold
     binary_mask = (mask > threshold).astype(np.uint8)
     
-    # Remove small regions using connected components (same as script_3)
+    # Remove small regions using connected components (same as script_4)
     if min_area > 0:
         num_labels, labels, stats, _ = cv2.connectedComponentsWithStats(binary_mask, connectivity=8)
         for i in range(1, num_labels):
@@ -247,11 +247,18 @@ def run_single_config(classifier, seg_models, authentic_files, forged_files,
     return tp, fp, tn, fn
 
 
+# Optimal thresholds from validation sweep (Dec 2025)
+# Best Net Score: cls=0.20, seg=0.35, area=25 -> Net=397, Recall=87.8%, FP=8.4%
+DEFAULT_CLASSIFIER_THRESHOLD = 0.20
+DEFAULT_SEG_THRESHOLD = 0.35
+DEFAULT_MIN_AREA = 25
+
+
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--classifier-threshold', type=float, default=0.25)
-    parser.add_argument('--seg-threshold', type=float, default=0.35)
-    parser.add_argument('--min-area', type=int, default=300)
+    parser.add_argument('--classifier-threshold', type=float, default=DEFAULT_CLASSIFIER_THRESHOLD)
+    parser.add_argument('--seg-threshold', type=float, default=DEFAULT_SEG_THRESHOLD)
+    parser.add_argument('--min-area', type=int, default=DEFAULT_MIN_AREA)
     parser.add_argument('--sweep', action='store_true', help='Run parameter sweep')
     args = parser.parse_args()
     

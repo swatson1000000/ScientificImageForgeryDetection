@@ -1,0 +1,85 @@
+======================================================================
+HARD NEGATIVE MINING
+======================================================================
+Device: cuda
+Authentic images: /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/test_authentic_100
+Classifier threshold: 0.25
+Seg threshold: 0.35
+Min area: 300
+
+Loading models...
+  Loaded: highres_no_ela_v3_best.pth
+  Loaded: high_recall_v3_best.pth
+  Loaded: enhanced_aug_v3_best.pth
+Loaded 3 segmentation models
+
+Found 500 authentic images
+
+Running inference on authentic images...
+  FP: 58692.png (prob=0.533, area=8101)
+  FP: 60927.png (prob=0.539, area=16595)
+  FP: 18877.png (prob=0.641, area=618)
+  FP: 34883.png (prob=0.550, area=11783)
+  FP: 14965.png (prob=0.385, area=9797)
+  FP: 51069.png (prob=0.547, area=5806)
+  FP: 46907.png (prob=0.530, area=413)
+  FP: 350.png (prob=0.609, area=12802)
+  FP: 37400.png (prob=0.574, area=3527)
+  FP: 25340.png (prob=0.553, area=1851)
+  FP: 13863.png (prob=0.638, area=546)
+  FP: 64233.png (prob=0.601, area=557)
+  FP: 1251.png (prob=0.313, area=2950)
+  FP: 30344.png (prob=0.457, area=403)
+  Processed 100/500 images, FPs so far: 14
+  FP: 25351.png (prob=0.642, area=3972)
+  FP: 16359.png (prob=0.591, area=905)
+  FP: 21968.png (prob=0.264, area=1414)
+  FP: 61883.png (prob=0.522, area=4501)
+  FP: 1225.png (prob=0.290, area=11789)
+  FP: 610.png (prob=0.340, area=2231)
+  Processed 200/500 images, FPs so far: 20
+  FP: 26492.png (prob=0.663, area=27880)
+  FP: 56544.png (prob=0.298, area=5049)
+  FP: 13905.png (prob=0.448, area=349)
+  FP: 15176.png (prob=0.550, area=18689)
+  FP: 13415.png (prob=0.368, area=2171)
+  FP: 330.png (prob=0.538, area=1575)
+  FP: 62249.png (prob=0.280, area=596)
+  FP: 6406.png (prob=0.573, area=20447)
+  FP: 19986.png (prob=0.563, area=411)
+  Processed 300/500 images, FPs so far: 29
+  FP: 32535.png (prob=0.895, area=4768)
+  FP: 65177.png (prob=0.519, area=3057)
+  FP: 41600.png (prob=0.549, area=3833)
+  FP: 1813.png (prob=0.544, area=1303)
+  FP: 35234.png (prob=0.564, area=1829)
+  FP: 20097.png (prob=0.472, area=5371)
+  FP: 48184.png (prob=0.566, area=3471)
+  Processed 400/500 images, FPs so far: 36
+  FP: 65396.png (prob=0.442, area=18054)
+  FP: 35578.png (prob=0.437, area=8626)
+  FP: 27822.png (prob=0.556, area=1749)
+  FP: 24635.png (prob=0.525, area=1696)
+  FP: 29671.png (prob=0.581, area=1756)
+  FP: 41201.png (prob=0.513, area=1349)
+  FP: 45030.png (prob=0.386, area=3758)
+  FP: 46175.png (prob=0.523, area=1170)
+  Processed 500/500 images, FPs so far: 44
+
+======================================================================
+RESULTS
+======================================================================
+Total authentic images: 500
+False positives found: 44
+FP rate: 8.8%
+
+Saved 44 hard negative IDs to: /home/swatson/work/MachineLearning/kaggle/ScientificImageForgeryDetection/hard_negative_ids.txt
+
+Python list format (for script_1_train_v3.py):
+HARD_NEGATIVE_IDS = [
+    330, 350, 610, 1225, 1251, 1813, 6406, 13415, 13863, 13905,
+    14965, 15176, 16359, 18877, 19986, 20097, 21968, 24635, 25340, 25351,
+    26492, 27822, 29671, 30344, 32535, 34883, 35234, 35578, 37400, 41201,
+    41600, 45030, 46175, 46907, 48184, 51069, 56544, 58692, 60927, 61883,
+    62249, 64233, 65177, 65396,
+]

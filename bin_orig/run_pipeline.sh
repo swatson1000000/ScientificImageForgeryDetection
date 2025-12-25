@@ -153,7 +153,7 @@ if [ "$SKIP_TRAINING" = false ]; then
     echo "Log file: $LOG_DIR/train_v3.log"
     echo ""
     
-    python "$SCRIPT_DIR/script_0_train_v3.py" 2>&1 | tee "$LOG_DIR/train_v3.log"
+    python "$SCRIPT_DIR/script_1_train_v3.py" 2>&1 | tee "$LOG_DIR/train_v3.log"
     
     V3_END=$(date +%s)
     V3_DURATION=$((V3_END - V3_START))
@@ -172,7 +172,7 @@ if [ "$SKIP_TRAINING" = false ]; then
     echo "Log file: $LOG_DIR/train_v4.log"
     echo ""
     
-    python "$SCRIPT_DIR/script_1_train_v4.py" 2>&1 | tee "$LOG_DIR/train_v4.log"
+    python "$SCRIPT_DIR/script_3_train_v4.py" 2>&1 | tee "$LOG_DIR/train_v4.log"
     
     TRAIN_END=$(date +%s)
     TRAIN_DURATION=$((TRAIN_END - TRAIN_START))
@@ -221,8 +221,9 @@ echo "Seg threshold: $SEG_THRESHOLD"
 echo "Log file: $LOG_DIR/submission.log"
 echo ""
 
-# Two-stage submission command
-CMD="python $SCRIPT_DIR/script_3_two_stage_submission.py --input $TEST_DIR --output $OUTPUT_FILE"
+
+# Two-stage submission command (now using script_4_two_pass_pipeline.py)
+CMD="python $SCRIPT_DIR/script_4_two_pass_pipeline.py --input $TEST_DIR --output $OUTPUT_FILE"
 CMD="$CMD --classifier-threshold $CLASSIFIER_THRESHOLD --seg-threshold $SEG_THRESHOLD"
 
 $CMD 2>&1 | tee "$LOG_DIR/submission.log"
