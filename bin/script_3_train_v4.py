@@ -46,7 +46,7 @@ MODELS_DIR = PROJECT_DIR / 'models'
 
 # Hard negative images - ALL FP-producing authentic images at t=0.75, min-area=500
 # This list is generated from scanning all 2377 authentic images
-HARD_NEGATIVE_FILE = Path('/tmp/all_fp_images.txt')
+HARD_NEGATIVE_FILE = PROJECT_DIR / 'hard_negative_ids.txt'
 
 # Models to retrain (starting from v3)
 MODELS_CONFIG = {

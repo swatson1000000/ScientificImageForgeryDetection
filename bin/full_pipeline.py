@@ -317,7 +317,7 @@ def phase4_inference(
     logger.section("PHASE 4: INFERENCE")
     
     if test_dir is None:
-        test_dir = PROJECT_DIR / 'test'
+        test_dir = PROJECT_DIR / 'validation_images'
     
     if output_dir is None:
         output_dir = PROJECT_DIR / 'predictions'

@@ -256,7 +256,7 @@ fi
 # Generate submission using two-stage pipeline
 log "Generating submission with two-pass pipeline..."
 python "$SCRIPT_DIR/script_4_two_pass_pipeline.py" \
-    --input "$PROJECT_DIR/test" \
+    --input "$PROJECT_DIR/validation_images" \
     --output "$PROJECT_DIR/predictions" \
     --csv "$PROJECT_DIR/submission.csv" \
     --json "$PROJECT_DIR/predictions/results.json" \
