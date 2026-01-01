@@ -45,6 +45,12 @@ if [ -d "$PROJECT_DIR/models" ]; then
     echo "Cleaned: $PROJECT_DIR/models (removed *.pth files)"
 fi
 
+# Remove predictions directory
+if [ -d "$PROJECT_DIR/predictions" ]; then
+    rm -rf "$PROJECT_DIR/predictions"/*
+    echo "Cleaned: $PROJECT_DIR/predictions"
+fi
+
 # Remove hard negatives file (optional)
 if [ "$CLEAN_HARD_NEGATIVES" = true ]; then
     if [ -f "$PROJECT_DIR/hard_negative_ids.txt" ]; then
